@@ -7,8 +7,8 @@ settings_copyright_copyleft = 'AgID - Team Digitale'
 settings_editor_name = 'AgID - Team Digitale'
 settings_doc_version = 'version: latest'
 settings_doc_release = 'version: latest'
-settings_basename = 'pagoPA-PdA_ManualeUtente'
-settings_file_name = 'pagoPA-PdA_ManualeUtente'
+settings_basename = 'pagoPA-PdA_ManualeUtente-v2.2'
+settings_file_name = 'pagoPA-PdA_ManualeUtente-v2.2'
 
 # -- No need to change below here
 
