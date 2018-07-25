@@ -2,13 +2,13 @@
 # -*- coding: utf-8 -*-
 
 # -- PROJECT Variables ----------------------------------------------------
-settings_project_name = "PdA_ManualeUtente_v2.1"
+settings_project_name = "PdA ManualeUtente"
 settings_copyright_copyleft = 'AgID - Team Digitale'
 settings_editor_name = 'AgID - Team Digitale'
 settings_doc_version = 'version: latest'
 settings_doc_release = 'version: latest'
-settings_basename = 'pagoPA_PdA_ManualeUtente_v2.1'
-settings_file_name = 'pagoPA_PdA_ManualeUtente_v2.1'
+settings_basename = 'pagoPA-PdA_ManualeUtente'
+settings_file_name = 'pagoPA-PdA_ManualeUtente'
 
 # -- No need to change below here
 
