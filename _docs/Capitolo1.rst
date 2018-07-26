@@ -5,7 +5,6 @@
 | **Portale delle Adesioni Manuale Utente**       |
 |                                                 |
 | **Versione 2.2 – 17 luglio 2018**               |
-|                                                 |
 +-------------------------------------------------+
 
 1. UTILIZZO DEL PORTALE
