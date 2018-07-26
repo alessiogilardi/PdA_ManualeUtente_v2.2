@@ -62,7 +62,7 @@
 |                                            | amministrazioni e dei gestori di  |
 |                                            | pubblici servizi”                 |
 +--------------------------------------------+-----------------------------------+
-| Nodo dei Pagamenti-SPC                     | Piattaforma tecnologica per       |
+| Nodo dei Pagamenti SPC                     | Piattaforma tecnologica per       |
 |                                            | l’interconnessione e              |
 |                                            | l’interoperabilità tra le         |
 |                                            | Pubbliche Amministrazioni e i     |
