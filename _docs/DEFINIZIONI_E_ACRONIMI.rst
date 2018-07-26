@@ -40,10 +40,10 @@
 |                                            | protocolli applicativi verso il   |
 |                                            | nodo dei pagamenti.               |
 +--------------------------------------------+-----------------------------------+
-| IPA Indice delle Pubbliche Amministrazioni | L'Indice delle Pubbliche          |
+| IPA                                        | L'Indice delle Pubbliche          |
 |                                            | Amministrazioni (IPA) è           |
 |                                            | l'archivio ufficiale degli Enti   |
-|                                            | pubblici e dei Gestori di         |
+| Indice delle Pubbliche Amministrazioni     | pubblici e dei Gestori di         |
 |                                            | pubblici servizi.                 |
 |                                            |                                   |
 |                                            | È realizzato e gestito            |
