@@ -15,8 +15,8 @@
 +========================================+===================================+
 | AgID                                   | Ente istituito ai sensi del       |
 |                                        | decreto legge n. 83 del 22 giugno |
-|                                        | 2012 convertito con legge n. 134  |
-| Agenzia per l’Italia Digitale          | del 7 agosto 2012 (già DigitPA).  |
+| Agenzia per l’Italia Digitale          | 2012 convertito con legge n. 134  |
+|                                        | del 7 agosto 2012 (già DigitPA).  |
 |                                        |                                   |
 |                                        | Gestore di pagoPA.                |
 +----------------------------------------+-----------------------------------+
