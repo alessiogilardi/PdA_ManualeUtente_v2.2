@@ -2890,12 +2890,12 @@ GLN ricevuti dalla autorità preposta alla loro assegnazione. Per ciascun
 Ente occorre specificare i dati di Tabella 25.
 
 +--------------------+-----------------+------------------+---------------------------+
-| **Nome** **campo** | **O/F**\*       | **Tipo/Formato** | **Descrizione/Valori**    |
+| **Nome campo**     | **O/F**\*       | **Tipo/Formato** | **Descrizione/Valori**    |
 +====================+=================+==================+===========================+
 | iddominio          | O               | 11 cifre         | Codice Fiscale dell’Ente  |
-|                    |                 |                  | Creditorecostituito da 11 |
-|                    |                 |                  | cifre con eventuali zeri  |
-|                    |                 |                  | (0) a sinistra.           |
+|                    |                 |                  | Creditore costituito da   |
+|                    |                 |                  | 11 cifre con eventuali    |
+|                    |                 |                  | zeri (0) a sinistra.      |
 +--------------------+-----------------+------------------+---------------------------+
 | codiceipa          | O               | Alfanumerico     | Codice IPA dell’Ente      |
 |                    |                 |                  | Creditore registrato      |
@@ -2903,7 +2903,6 @@ Ente occorre specificare i dati di Tabella 25.
 |                    |                 |                  | Pubbliche Amministrazioni |
 +--------------------+-----------------+------------------+---------------------------+
 | gs1gln             | O               | Alfanumerico     | Indica il codice GS1 GLN  |
-|                    |                 |                  |                           |
 +--------------------+-----------------+------------------+---------------------------+
 \* O = campo Obbligatorio; F = campo Facoltativo
 
