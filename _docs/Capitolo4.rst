@@ -1601,35 +1601,38 @@ La Tabella 14 riporta in modo schematico come cambia lo stato di un
 collegamento fisico in funzione delle azioni (ove disponibili) eseguite
 da un utente con profilo Nodo.
 
-+--------+------+-----+----------+-----------+---------+---------+------------+------------+------+
-|        |Azioni|Dett.|Approva   |Rifiuta    |Approva  |Rifiuta  |Approva     |Rifiuta     |Ripri |
-|        |      |     |(Form     |(Form      |modifica |modifica |richiesta   |richiesta   |stina |
-|        |      |     |Dettaglio)|Dettaglio) |Form     |Form     |disabilitaz.|disabilitaz.|      |
-+--------+------+     +          +           +Dettaglio+Dettaglio+(Form       +(Form       +      +
-| Stato  |      |     |          |           |         |         |Dettaglio)  |Dettaglio)  |      |
-+========+======+=====+==========+===========+=========+=========+============+============+======+
-|Inserimento    |Disp.| Attivo   |Inserimento| n.d.    | n.d.    |n.d.        | n.d.       |n.d.  |
-|in corso       |     |          |rifiutato  |         |         |            |            |      |
-+---------------+-----+----------+-----------+---------+---------+------------+------------+------+
-|Inserimento    |Disp.| n.d.     | n.d.      | n.d.    | n.d.    |n.d.        | n.d.       |n.d.  |
-|rifiutato      |     |          |           |         |         |            |            |      |
-+---------------+-----+----------+-----------+---------+---------+------------+------------+------+
-|Attivo         |Disp.| n.d.     | n.d.      | n.d.    | n.d.    |n.d.        | n.d.       |n.d.  |
-+---------------+-----+----------+-----------+---------+---------+------------+------------+------+
-|Modifica       |Disp.| n.d.     | n.d.      | Attivo  |Modifica |n.d.        | n.d.       |Attivo|
-|in corso       |     |          |           |         |rifiutata|            |            |      |
-+---------------+-----+----------+-----------+---------+---------+------------+------------+------+
-|Modifica       |Disp.| n.d.     | n.d.      | n.d.    | n.d.    |n.d.        | n.d.       |Attivo|
-|rifiutata      |     |          |           |         |         |            |            |      |
-+---------------+-----+----------+-----------+---------+---------+------------+------------+------+
-|Disabilitazione|Disp.| n.d.     | n.d.      | n.d.    | n.d.    |n.d.        | n.d.       |n.d.  |
-|programmata    |     |          |           |         |         |            |            |      |
-+---------------+-----+----------+-----------+---------+---------+------------+------------+------+
-|Disabilitazione|Disp.| n.d.     | n.d.      | n.d.    | n.d.    |Disabilitato| Attivo     |n.d.  |
-|in corso       |     |          |           |         |         |            |            |      |
-+---------------+-----+----------+-----------+---------+---------+------------+------------+------+
-|Disabilitato   |Disp.| n.d.     | n.d.      | n.d.    | n.d.    |n.d.        | n.d.       |n.d.  |
-+---------------+-----+----------+-----------+---------+---------+------------+------------+------+
++--------+------+-----+---------+-----------+---------+----------+------------+------------+------+
+|        |Azioni|Dett.|Approva  |Rifiuta    |Approva  |Rifiuta   |Approva     |Rifiuta     |Ripri |
+|        |      |     |         |           |         |          |            |            |      |
+|        |      |     |Form     |(Form      |modifica |modifica  |richiesta   |richiesta   |stina |
+|        |      |     |         |           |         |          |            |disabilitaz.|      |
++--------+------+     +Dettaglio+Dettaglio) +Form     +(Form     +disabilitaz.+(Form       +      +
+| Stato  |      |     |         |           |         |          |(Form       |            |      |
+|        |      |     |         |           |Dettaglio|Dettaglio)|Dettaglio)  |Dettaglio)  |      |
++========+======+=====+=========+===========+=========+==========+============+============+======+
+|Inserimento    |Disp.| Attivo  |Inserimento| n.d.    | n.d.     |n.d.        | n.d.       |n.d.  |
+|               |     |         |           |         |          |            |            |      |
+|in corso       |     |         |rifiutato  |         |          |            |            |      |
++---------------+-----+---------+-----------+---------+----------+------------+------------+------+
+|Inserimento    |Disp.| n.d.    | n.d.      | n.d.    | n.d.     |n.d.        | n.d.       |n.d.  |
+|rifiutato      |     |         |           |         |          |            |            |      |
++---------------+-----+---------+-----------+---------+----------+------------+------------+------+
+|Attivo         |Disp.| n.d.    | n.d.      | n.d.    | n.d.     |n.d.        | n.d.       |n.d.  |
++---------------+-----+---------+-----------+---------+----------+------------+------------+------+
+|Modifica       |Disp.| n.d.    | n.d.      | Attivo  |Modifica  |n.d.        | n.d.       |Attivo|
+|in corso       |     |         |           |         |rifiutata |            |            |      |
++---------------+-----+---------+-----------+---------+----------+------------+------------+------+
+|Modifica       |Disp.| n.d.    | n.d.      | n.d.    | n.d.     |n.d.        | n.d.       |Attivo|
+|rifiutata      |     |         |           |         |          |            |            |      |
++---------------+-----+---------+-----------+---------+----------+------------+------------+------+
+|Disabilitazione|Disp.| n.d.    | n.d.      | n.d.    | n.d.     |n.d.        | n.d.       |n.d.  |
+|programmata    |     |         |           |         |          |            |            |      |
++---------------+-----+---------+-----------+---------+----------+------------+------------+------+
+|Disabilitazione|Disp.| n.d.    | n.d.      | n.d.    | n.d.     |Disabilitato| Attivo     |n.d.  |
+|in corso       |     |         |           |         |          |            |            |      |
++---------------+-----+---------+-----------+---------+----------+------------+------------+------+
+|Disabilitato   |Disp.| n.d.    | n.d.      | n.d.    | n.d.     |n.d.        | n.d.       |n.d.  |
++---------------+-----+---------+-----------+---------+----------+------------+------------+------+
 **Tabella 14 - Stati di un collegamento fisico in funzione delle azioni eseguite da un utente Nodo**
 
 Un utente AgID è in grado di visualizzare solo il dettaglio delle
