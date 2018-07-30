@@ -2933,6 +2933,22 @@ Ente occorre specificare i dati di Tabella 26.
 | RAGIONESOCIALE  | O               | Alfanumerico     | Ragione sociale dell’Ente |
 |                 |                 |                  | Creditore                 |
 +-----------------+-----------------+------------------+---------------------------+
+
++----------------+-----------+--------------------+---------------------------+
+| **Nome campo** | **O/F**\* | **Tipo / Formato** | **Descrizione / Valori**  |
++----------------+-----------+--------------------+---------------------------+
+| iddominio      | O         | 11 cifre           | Codice Fiscale dell’Ente  |
+|                |           |                    | Creditore costituito da   |
+|                |           |                    | 11 cifre con eventuali    |
+|                |           |                    | zeri (0) a sinistra.      |
++----------------+-----------+--------------------+---------------------------+
+| codiceipa      | O         | Alfanumerico       | Codice IPA dell’Ente      |
+|                |           |                    | Creditore registrato      |
+|                |           |                    | nell’Indice delle         |
+|                |           |                    | Pubbliche Amministrazioni |
++----------------+-----------+--------------------+---------------------------+
+| gs1gln         | O         | Alfanumerico       | Indica il codice GS1 GLN  |
++----------------+-----------+--------------------+---------------------------+
 \* O = campo Obbligatorio; F = campo Facoltativo
 
 **Tabella 26 – Tracciato record per caricamento massivo Codici Interbancari**
