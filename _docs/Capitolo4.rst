@@ -2889,21 +2889,21 @@ permette di associare agli Enti Creditori aderenti a pagoPA i codici GS1
 GLN ricevuti dalla autorità preposta alla loro assegnazione. Per ciascun
 Ente occorre specificare i dati di Tabella 25.
 
-+--------------------+-----------+------------------+---------------------------+
-| **Nome-campo**     | **O/F**\* | **Tipo/Formato** | **Descrizione/Valori**    |
-+====================+===========+==================+===========================+
-| iddominio          | O         | 11 cifre         | Codice Fiscale dell’Ente  |
-|                    |           |                  | Creditore costituito da   |
-|                    |           |                  | 11 cifre con eventuali    |
-|                    |           |                  | zeri (0) a sinistra.      |
-+--------------------+-----------+------------------+---------------------------+
-| codiceipa          | O         | Alfanumerico     | Codice IPA dell’Ente      |
-|                    |           |                  | Creditore registrato      |
-|                    |           |                  | nell’Indice delle         |
-|                    |           |                  | Pubbliche Amministrazioni |
-+--------------------+-----------+------------------+---------------------------+
-| gs1gln             | O         | Alfanumerico     | Indica il codice GS1 GLN  |
-+--------------------+-----------+------------------+---------------------------+
++--------------------+-----------+------------------+--------------------------+
+| **Nome campo**     | **O/F**\* | **Tipo/Formato** | **Descrizione/Valori**   |
++====================+===========+==================+==========================+
+| iddominio          | O         | 11 cifre         |Codice Fiscale dell’Ente  |
+|                    |           |                  |Creditore costituito da   |
+|                    |           |                  |11 cifre con eventuali    |
+|                    |           |                  |zeri (0) a sinistra.      |
++--------------------+-----------+------------------+--------------------------+
+| codiceipa          | O         | Alfanumerico     |Codice IPA dell’Ente      |
+|                    |           |                  |Creditore registrato      |
+|                    |           |                  |nell’Indice delle         |
+|                    |           |                  |Pubbliche Amministrazioni |
++--------------------+-----------+------------------+--------------------------+
+| gs1gln             | O         | Alfanumerico     |Indica il codice GS1 GLN  |
++--------------------+-----------+------------------+--------------------------+
 \* O = campo Obbligatorio; F = campo Facoltativo
 
 **Tabella 25 – Tracciato record per caricamento massivo Codici GS1 GLN**
