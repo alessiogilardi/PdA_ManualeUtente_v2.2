@@ -2241,9 +2241,9 @@ La Tabella 19 riporta in modo schematico come cambia lo stato di un’associazio
 Ente/Stazione in funzione delle azioni (ove disponibili) eseguite da un utente RT o AgID.
 
 +------------------+--------------+----------------------------------+-----------------------------+
-|                  | **Azioni**   |                                  |                             |
-+------------------+--------------+                                  |                             |
-| **Stato**        |              | **Disabilita associazione Ente** | **Annulla disabilitazione** |
+|                  | **Azioni**   | **Disabilita associazione Ente** | **Annulla disabilitazione** |
++------------------+--------------+----------------------------------|-----------------------------|
+| **Stato**        |              |                                  |                             |
 +==================+==============+==================================+=============================+
 | **Attiva**                      | Cancellazione programmata        | n.d.                        |
 +---------------------------------+----------------------------------+-----------------------------+
