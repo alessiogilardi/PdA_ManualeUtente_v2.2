@@ -1385,87 +1385,80 @@ mostrata in Figura 57.
 
 In Tabella 10 si riportano gli stati che può assumere un IBAN.
 
-+-----------------------------------+-----------------------------------+
-| **Stato**                         | **Descrizione stato**             |
-+===================================+===================================+
-| Attivazione programmata           | L’IBAN è in attesa di essere      |
-|                                   | preso in carico dal Nodo          |
-+-----------------------------------+-----------------------------------+
-| Attivazione in corso              | L’IBAN è stato preso in carico    |
-|                                   | dal Nodo dei Pagamenti-SPC        |
-+-----------------------------------+-----------------------------------+
-| Attivo                            | L’IBAN è stato configurato sul    |
-|                                   | Nodo ed è quindi abilitato a      |
-|                                   | ricevere pagamenti                |
-+-----------------------------------+-----------------------------------+
-| Attivo con modifica programmata   | L’IBAN è attivo e la modifica     |
-|                                   | richiesta è in attesa di essere   |
-|                                   | presa in carico dal Nodo          |
-+-----------------------------------+-----------------------------------+
-| Attivo con modifica in corso      | L’IBAN è attivo e la modifica     |
-|                                   | richiesta è stata presa in carico |
-|                                   | dal Nodo                          |
-+-----------------------------------+-----------------------------------+
-| Attivo con cancellazione          | L’IBAN è attivo e la richiesta di |
-| programmata                       | cancellazione è in attesa di      |
-|                                   | essere presa in carico dal Nodo   |
-+-----------------------------------+-----------------------------------+
-| Attivo con cancellazione in corso | L’IBAN è attivo e la richiesta di |
-|                                   | cancellazione è stata presa in    |
-|                                   | carico dal Nodo                   |
-+-----------------------------------+-----------------------------------+
++--------------------------------------+-----------------------------------+
+| **Stato**                            | **Descrizione stato**             |
++======================================+===================================+
+| Attivazione programmata              | L’IBAN è in attesa di essere      |
+|                                      | preso in carico dal Nodo          |
++--------------------------------------+-----------------------------------+
+| Attivazione in corso                 | L’IBAN è stato preso in carico    |
+|                                      | dal Nodo dei Pagamenti-SPC        |
++--------------------------------------+-----------------------------------+
+| Attivo                               | L’IBAN è stato configurato sul    |
+|                                      | Nodo ed è quindi abilitato a      |
+|                                      | ricevere pagamenti                |
++--------------------------------------+-----------------------------------+
+| Attivo con modifica programmata      | L’IBAN è attivo e la modifica     |
+|                                      | richiesta è in attesa di essere   |
+|                                      | presa in carico dal Nodo          |
++--------------------------------------+-----------------------------------+
+| Attivo con modifica in corso         | L’IBAN è attivo e la modifica     |
+|                                      | richiesta è stata presa in carico |
+|                                      | dal Nodo                          |
++--------------------------------------+-----------------------------------+
+| Attivo con cancellazione programmata | L’IBAN è attivo e la richiesta di |
+|                                      | cancellazione è in attesa di      |
+|                                      | essere presa in carico dal Nodo   |
++--------------------------------------+-----------------------------------+
+| Attivo con cancellazione in corso    | L’IBAN è attivo e la richiesta di |
+|                                      | cancellazione è stata presa in    |
+|                                      | carico dal Nodo                   |
++--------------------------------------+-----------------------------------+
 **Tabella 10 – Stati dell’IBAN**
 
 In Tabella 11 si riportano gli stati che può assumere un IBAN.
 
-+-----------------------+-----------------------+-----------------------+
-| **Stato iniziale**    | **Azione RP**         | **Stato Finale**      |
-+=======================+=======================+=======================+
-| Attivazione           | nessuna               | Attivazione in corso  |
-| programmata           |                       |                       |
-+-----------------------+-----------------------+-----------------------+
-| Attivazione           | modifica              | Attivazione           |
-| programmata           |                       | programmata           |
-+-----------------------+-----------------------+-----------------------+
-| Attivazione           | cancellazione         |                       |
-| programmata           |                       |                       |
-+-----------------------+-----------------------+-----------------------+
-| Attivazione in corso  | nessuna azione è      | Attivo                |
-|                       | possibile             |                       |
-+-----------------------+-----------------------+-----------------------+
-| Attivo                | modifica              | Attivo con modifica   |
-|                       |                       | programmata           |
-+-----------------------+-----------------------+-----------------------+
-| Attivo                | cancellazione         |                       |
-+-----------------------+-----------------------+-----------------------+
-| Attivo con modifica   | nessuna               | Attivo con modifica   |
-| programmata           |                       | in corso              |
-+-----------------------+-----------------------+-----------------------+
-| Attivo con modifica   | annullamento modifica | Attivo                |
-| programmata           |                       |                       |
-+-----------------------+-----------------------+-----------------------+
-| Attivo con modifica   | modifica              | Attivo con modifica   |
-| programmata           |                       | programmata           |
-+-----------------------+-----------------------+-----------------------+
-| Attivo con modifica   | cancellazione         | Attivo con            |
-| programmata           |                       | cancellazione         |
-|                       |                       | programmata           |
-+-----------------------+-----------------------+-----------------------+
-| Attivo con modifica   | nessuna azione è      | Attivo                |
-| in corso              | possibile             |                       |
-+-----------------------+-----------------------+-----------------------+
-| Attivo con            | nessuna               | Attivo con            |
-| cancellazione         |                       | cancellazione in      |
-| programmata           |                       | corso                 |
-+-----------------------+-----------------------+-----------------------+
-| Attivo con            | annullamento modifica | Attivo                |
-| cancellazione         |                       |                       |
-| programmata           |                       |                       |
-+-----------------------+-----------------------+-----------------------+
-| Attivo con            | modifica              | Attivo con            |
-| cancellazione         |                       | cancellazione         |
-| programmata           |                       | programmata           |
-+-----------------------+-----------------------+-----------------------+
++--------------------------------------+----------------------------+-----------------------+
+| **Stato iniziale**                   | **Azione RP**              | **Stato Finale**      |
++======================================+============================+=======================+
+| Attivazione programmata              | nessuna                    | Attivazione in corso  |
++--------------------------------------+----------------------------+-----------------------+
+| Attivazione programmata              | modifica                   | Attivazione           |
+|                                      |                            | programmata           |
++--------------------------------------+----------------------------+-----------------------+
+| Attivazione programmata              | cancellazione              |                       |
++--------------------------------------+----------------------------+-----------------------+
+| Attivazione in corso                 | nessuna azione è possibile | Attivo                |
++--------------------------------------+----------------------------+-----------------------+
+| Attivo                               | modifica                   | Attivo con modifica   |
+|                                      |                            | programmata           |
++--------------------------------------+----------------------------+-----------------------+
+| Attivo                               | cancellazione              |                       |
++--------------------------------------+----------------------------+-----------------------+
+| Attivo con modifica programmata      | nessuna                    | Attivo con modifica   |
+|                                      |                            | in corso              |
++--------------------------------------+----------------------------+-----------------------+
+| Attivo con modifica programmata      | annullamento modifica      | Attivo                |
++--------------------------------------+----------------------------+-----------------------+
+| Attivo con modifica programmata      | modifica                   | Attivo con modifica   |
+|                                      |                            | programmata           |
++--------------------------------------+----------------------------+-----------------------+
+| Attivo con modifica programmata      | cancellazione              | Attivo con            |
+|                                      |                            | cancellazione         |
+|                                      |                            | programmata           |
++--------------------------------------+----------------------------+-----------------------+
+| Attivo con modifica in corso         | nessuna azione è possibile | Attivo                |
++--------------------------------------+----------------------------+-----------------------+
+| Attivo con cancellazione programmata | nessuna                    | Attivo con            |
+|                                      |                            | cancellazione in      |
+|                                      |                            | corso                 |
++--------------------------------------+----------------------------+-----------------------+
+| Attivo con cancellazione programmata | annullamento modifica      | Attivo                |
++--------------------------------------+----------------------------+-----------------------+
+| Attivo con cancellazione programmata | modifica                   | Attivo con            |
+|                                      |                            | cancellazione         |
+|                                      |                            | programmata           |
++--------------------------------------+----------------------------+-----------------------+
 **Tabella 11– Passaggi di stato dell’IBAN**
 
 4.7 Gestione dei collegamenti fisici
