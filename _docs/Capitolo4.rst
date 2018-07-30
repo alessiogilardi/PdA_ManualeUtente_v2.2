@@ -2692,7 +2692,7 @@ Creditore e quelle inerenti all’IBAN stesso, delle quali solo la
 descrizione è facoltativa (vedi Tabella 21)
 
 +-----------------+-----------------+--------------------+--------------------------+
-| **Nome campo**  | **O/F**\*       | **Tipo / Formato** | **Descrizione / Valori** |
+| **Nome campo**  | **O/F**\*       | **Tipo/Formato**   | **Descrizione/Valori**   |
 +=================+=================+====================+==========================+
 | iddominio       | O               | 11 cifre           | Codice Fiscale           |
 |                 |                 |                    | dell’Ente                |
@@ -2763,7 +2763,7 @@ far aderire è necessario specificare sia i dati dell’Ente Creditore
 stesso che quelli relativi al suo Referente Pagamenti (vedi Tabella 22).
 
 +-----------------+------------+--------------------+-----------------------------------------------+
-| **Nome campo**  | **O/F**\*  | **Tipo / Formato** | **Descrizione / Valori**                      |
+| **Nome campo**  | **O/F**\*  | **Tipo/Formato**   | **Descrizione/Valori**                        |
 +=================+============+====================+===============================================+
 | iddominio       | O          | 11 cifre           | Codice Fiscale dell’Ente Creditore costituito |
 |                 |            |                    | da 11 cifre con eventuali zeri (0) a sinistra.|
