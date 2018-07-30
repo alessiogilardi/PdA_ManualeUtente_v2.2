@@ -1995,35 +1995,35 @@ La Tabella 17 riporta in modo schematico come cambia lo stato di una
 stazione in funzione delle azioni (ove disponibili) eseguite da un
 utente del Nodo.
 
-+-------+-------+-----+-----------+-----------+---------+---------+----------+----------+-----------+
-|       |Azioni |Dett.|Approva    |Rifiuta    |Approva  |Rifiuta  |Approva   |Rifiuta   |Ripristina |
-|       |       |     |inserimento|inserimento|modifica |modifica |richiesta |richiesta |           |
-|       |       |     |(Form      |(Form      |Form     |Form     |disabilit.|disabilit.|           |
-+-------+-------+     +Dettaglio) +Dettaglio) +Dettaglio+Dettaglio+(Form     +(Form     +           +
-| Stato |       |     |           |           |         |         |Dettaglio)|Dettaglio)|           |
-+=======+=======+=====+===========+===========+=========+=========+==========+==========+===========+
-|Inserimento    |Disp.|Attivo     |Inserimento| n.d.    |n.d.     |n.d.      | n.d.     |n.d.       |
-|in corso       |     |           |rifiutato  |         |         |          |          |           |  
-+---------------+-----+-----------+-----------+---------+---------+----------+----------+-----------+
-|Inserimento    |Disp.|n.d.       | n.d.      | n.d.    |n.d.     |n.d.      | n.d.     |n.d.       |
-|rifiutatato    |     |           |           |         |         |          |          |           |  
-+---------------+-----+-----------+-----------+---------+---------+----------+----------+-----------+
-|Attivo         |Disp.|n.d.       | n.d.      | n.d.    |n.d.     |n.d.      | n.d.     |n.d.       |
-+---------------+-----+-----------+-----------+---------+---------+----------+----------+-----------+
-|Modifica       |Disp.|n.d.       | n.d.      | Attivo  |Modifica |n.d.      | n.d.     |Attivo     |
-|in corso       |     |           |           |         |rifiutata|          |          |           |  
-+---------------+-----+-----------+-----------+---------+---------+----------+----------+-----------+
-|Modifica       |Disp.|n.d.       | n.d.      | n.d.    | n.d.    |n.d.      | n.d.     |Attivo     |
-|rifiutata      |     |           |           |         |         |          |          |           |
-+---------------+-----+-----------+-----------+---------+---------+----------+----------+-----------+
-|Disabilitazione|Disp.|n.d.       | n.d.      | n.d.    | n.d.    |n.d.      | n.d.     |n.d.       |
-|programmata    |     |           |           |         |         |          |          |           |
-+---------------+-----+-----------+-----------+---------+---------+----------+----------+-----------+
-|Disabilitazione|Disp.|n.d.       | n.d.      | n.d.    | n.d.    |Disabilito| Attivo   |n.d.       |
-|in corso       |     |           |           |         |         |          |          |           |
-+---------------+-----+-----------+-----------+---------+---------+----------+----------+-----------+
-|Disabilitato   |Disp.| n.d.      | n.d.      | n.d.    | n.d.    |n.d.      | n.d.     |n.d.       |
-+---------------+-----+-----------+-----------+---------+---------+----------+----------+-----------+
++-------+-------+-----+-----------+-----------+---------+---------+----------+----------+------+
+|       |Azioni |Dett.|Approva    |Rifiuta    |Approva  |Rifiuta  |Approva   |Rifiuta   |Ripri |
+|       |       |     |inserimento|inserimento|modifica |modifica |richiesta |richiesta |stina |
+|       |       |     |(Form      |(Form      |Form     |Form     |disabilit.|disabilit.|      |
++-------+-------+     +Dettaglio) +Dettaglio) +Dettaglio+Dettaglio+(Form     +(Form     +      +
+| Stato |       |     |           |           |         |         |Dettaglio)|Dettaglio)|      |
++=======+=======+=====+===========+===========+=========+=========+==========+==========+======+
+|Inserimento    |Disp.|Attivo     |Inserimento| n.d.    |n.d.     |n.d.      | n.d.     |n.d.  |
+|in corso       |     |           |rifiutato  |         |         |          |          |      |  
++---------------+-----+-----------+-----------+---------+---------+----------+----------+------+
+|Inserimento    |Disp.|n.d.       | n.d.      | n.d.    |n.d.     |n.d.      | n.d.     |n.d.  |
+|rifiutatato    |     |           |           |         |         |          |          |      |  
++---------------+-----+-----------+-----------+---------+---------+----------+----------+------+
+|Attivo         |Disp.|n.d.       | n.d.      | n.d.    |n.d.     |n.d.      | n.d.     |n.d.  |
++---------------+-----+-----------+-----------+---------+---------+----------+----------+------+
+|Modifica       |Disp.|n.d.       | n.d.      | Attivo  |Modifica |n.d.      | n.d.     |Attivo|
+|in corso       |     |           |           |         |rifiutata|          |          |      |  
++---------------+-----+-----------+-----------+---------+---------+----------+----------+------+
+|Modifica       |Disp.|n.d.       | n.d.      | n.d.    | n.d.    |n.d.      | n.d.     |Attivo|
+|rifiutata      |     |           |           |         |         |          |          |      |
++---------------+-----+-----------+-----------+---------+---------+----------+----------+------+
+|Disabilitazione|Disp.|n.d.       | n.d.      | n.d.    | n.d.    |n.d.      | n.d.     |n.d.  |
+|programmata    |     |           |           |         |         |          |          |      |
++---------------+-----+-----------+-----------+---------+---------+----------+----------+------+
+|Disabilitazione|Disp.|n.d.       | n.d.      | n.d.    | n.d.    |Disabilito| Attivo   |n.d.  |
+|in corso       |     |           |           |         |         |          |          |      |
++---------------+-----+-----------+-----------+---------+---------+----------+----------+------+
+|Disabilitato   |Disp.| n.d.      | n.d.      | n.d.    | n.d.    |n.d.      | n.d.     |n.d.  |
++---------------+-----+-----------+-----------+---------+---------+----------+----------+------+
 **Tabella 17 - Stati di una stazione in funzione delle azioni eseguite da un utente Nodo**
 
 Un utente AgID è in grado di visualizzare il dettaglio delle
