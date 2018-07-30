@@ -2889,7 +2889,7 @@ permette di associare agli Enti Creditori aderenti a pagoPA i codici GS1
 GLN ricevuti dalla autorità preposta alla loro assegnazione. Per ciascun
 Ente occorre specificare i dati di Tabella 25.
 
-+--------------+--------- +----------------+---------------------------+
++--------------+----------+----------------+---------------------------+
 |**Nome campo**|**O/F**\* |**Tipo/Formato**|**Descrizione/Valori**     |
 +==============+==========+================+===========================+
 | iddominio    | O        | 11 cifre       | Codice Fiscale dell’Ente  |
