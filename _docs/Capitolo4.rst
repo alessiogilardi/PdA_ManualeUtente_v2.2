@@ -2762,55 +2762,30 @@ adesioni al Portale delle Adesioni. Per ogni Ente Creditore che si vuole
 far aderire è necessario specificare sia i dati dell’Ente Creditore
 stesso che quelli relativi al suo Referente Pagamenti (vedi Tabella 22).
 
-+-----------------+-----------+--------------------+--------------------------+
-| **Nome campo**  | **O/F**\* | **Tipo / Formato** | **Descrizione / Valori** |
-+=================+===========+====================+==========================+
-| iddominio       | O         | 11 cifre           | Codice Fiscale dell’Ente |
-|                 |           |                    | Creditore costituito da  |
-|                 |           |                    | 11 cifre con eventuali   |
-|                 |           |                    | zeri (0) a sinistra.     |
-+-----------------+-----------+--------------------+--------------------------+
-| codiceipa       | O         | Alfanumerico       | Codice IPA               |
-|                 |           |                    | dell’Ente                |
-|                 |           |                    | Creditore                |
-|                 |           |                    | registrato               |
-|                 |           |                    | nell’Indice              |
-|                 |           |                    | delle Pubbliche          |
-|                 |           |                    | Amministrazioni          |
-+-----------------+-----------+--------------------+--------------------------+
-| codicefiscale   | O         | Alfanumerico       | Codice Fiscale           |
-|                 |           |                    | del Referente            |
-|                 |           |                    | Pagamenti                |
-|                 |           |                    | dell’Ente                |
-|                 |           |                    | Creditore                |
-+-----------------+-----------+--------------------+--------------------------+
-| email           | O         | Alfanumerico       | Indirizzo di             |
-|                 |           |                    | posta                    |
-|                 |           |                    | elettronica del          |
-|                 |           |                    | Referente                |
-|                 |           |                    | Pagamenti                |
-|                 |           |                    | dell’Ente                |
-|                 |           |                    | Creditore                |
-+-----------------+-----------+--------------------+--------------------------+
-| nome            | O         | Alfanumerico       | Nome del                 |
-|                 |           |                    | Referente                |
-|                 |           |                    | Pagamenti                |
-|                 |           |                    | dell’Ente                |
-|                 |           |                    | Creditore                |
-+-----------------+-----------+--------------------+--------------------------+
-| cognome         | O         | Alfanumerico       | Cognome del              |
-|                 |           |                    | Referente                |
-|                 |           |                    | Pagamenti                |
-|                 |           |                    | dell’Ente                |
-|                 |           |                    | Creditore                |
-+-----------------+-----------+--------------------+--------------------------+
-| dataadesione    | O         | aaaa-mm-gg         | Data di                  |
-|                 |           |                    | adesione                 |
-|                 |           |                    | dell’Ente                |
-|                 |           |                    | Creditore nel            |
-|                 |           |                    | formato                  |
-|                 |           |                    | aaaa-mm-gg               |
-+-----------------+-----------+--------------------+--------------------------+
++-----------------+------------+--------------------+-----------------------------------------------+
+| **Nome campo**  | **O/F**\*  | **Tipo / Formato** | **Descrizione / Valori**                      |
++=================+============+====================+===============================================+
+| iddominio       | O          | 11 cifre           | Codice Fiscale dell’Ente Creditore costituito |
+|                 |            |                    | da 11 cifre con eventuali zeri (0) a sinistra.|
++-----------------+------------+--------------------+-----------------------------------------------+
+| codiceipa       | O          | Alfanumerico       | Codice IPA dell’Ente Creditore registrato     |
+|                 |            |                    | nell’Indice delle Pubbliche Amministrazioni   |
++-----------------+------------+--------------------+-----------------------------------------------+
+| codicefiscale   | O          | Alfanumerico       | Codice Fiscale del Referente Pagamenti        |
+|                 |            |                    | dell’Ente Creditore                           |
++-----------------+------------+--------------------+-----------------------------------------------+
+| email           | O          | Alfanumerico       | Indirizzo di posta elettronica del Referente  |
+|                 |            |                    | Pagamenti dell’Ente Creditore                 |
++-----------------+------------+--------------------+-----------------------------------------------+
+| nome            | O          | Alfanumerico       | Nome del Referente Pagamenti dell’Ente        |
+|                 |            |                    | Creditore                                     |
++-----------------+------------+--------------------+-----------------------------------------------+
+| cognome         | O          | Alfanumerico       | Cognome del Referente Pagamenti dell’Ente     |
+|                 |            |                    | Creditore                                     |
++-----------------+------------+--------------------+-----------------------------------------------+
+| dataadesione    | O          | aaaa-mm-gg         | Data di adesione dell’Ente Creditore nel      |
+|                 |            |                    | formato aaaa-mm-gg                            |
++-----------------+------------+--------------------+-----------------------------------------------+
 \* O = campo Obbligatorio; F = campo Facoltativo
 
 **Tabella 22 – Tracciato record per caricamento massivo Enti Creditori**
