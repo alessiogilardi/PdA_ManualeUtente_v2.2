@@ -2890,7 +2890,7 @@ GLN ricevuti dalla autorità preposta alla loro assegnazione. Per ciascun
 Ente occorre specificare i dati di Tabella 25.
 
 +----------------+-----------------+------------------+---------------------------+
-| **Nomecampo**  | **O/F**\*       | **Tipo/Formato** | **Descrizione/Valori**    |
+| **Nome campo** | **O/F**\*       | **Tipo/Formato** | **Descrizione/Valori**    |
 +================+=================+==================+===========================+
 | iddominio      | O               | 11 cifre         | Codice Fiscale dell’Ente  |
 |                |                 |                  | Creditorecostituito da 11 |
@@ -2927,7 +2927,7 @@ Ente occorre specificare i dati di Tabella 26.
 | SIA             | O               | Alfanumerico (5) | Codice Interbancario      |
 |                 |                 |                  | assegnato dal Consorzio   |
 |                 |                 |                  | CBill all’Ente Creditore  |
-|                 |                 |                  | costituito da 5 caratteri | 
+|                 |                 |                  | costituito da 5 caratteri |
 +-----------------+-----------------+------------------+---------------------------+
 | RAGIONESOCIALE  | O               | Alfanumerico     | Ragione sociale dell’Ente |
 |                 |                 |                  | Creditore                 |
