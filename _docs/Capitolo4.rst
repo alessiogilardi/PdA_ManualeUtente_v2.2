@@ -1603,13 +1603,11 @@ da un utente con profilo Nodo.
 
 +--------+------+-----+---------+-----------+---------+---------+------------+------------+------+
 |        |Azioni|Dett.|Approva  |Rifiuta    |Approva  |Rifiuta  |Approva     |Rifiuta     |Ripri |
-|        |      |     |         |           |         |         |            |            |      |
-|        |      |     |Form     |(Form      |modifica |modifica |richiesta   |richiesta   |stina |
-|        |      |     |         |           |         |         |            |            |      |
-|        |      |     |Dettaglio|Dettaglio) |Form     |Form     |disabilitaz.|disabilitaz.|      |
+|        |      |     |         |           |modifica |modifica |richiesta   |richiesta   |stina |
+|        |      |     |         |           |         |         |disabilitaz.|disabilitaz.|      |
 +--------+------+     +         +           +         +         +            +            +      +
-| Stato  |      |     |         |           |Dettaglio|Dettaglio|(Form       |(Form       |      |
-|        |      |     |         |           |         |         |Dettaglio)  |Dettaglio)  |      |
+| Stato  |      |     |Form     |Form       |Form     |Form     |Form        |Form        |      |
+|        |      |     |Dettaglio|Dettaglio  |Dettaglio|Dettaglio|Dettaglio   |Dettaglio   |      |
 +========+======+=====+=========+===========+=========+=========+============+============+======+
 |Inserimento    |Disp.| Attivo  |Inserimento| n.d.    | n.d.    |n.d.        | n.d.       |n.d.  |
 |in corso       |     |         |rifiutato  |         |         |            |            |      |
