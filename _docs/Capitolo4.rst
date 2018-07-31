@@ -1602,12 +1602,12 @@ collegamento fisico in funzione delle azioni (ove disponibili) eseguite
 da un utente con profilo Nodo.
 
 +--------+------+-----+---------+-----------+---------+---------+------------+------------+------+
-|        |Azioni|     |Approva  |Rifiuta    |Approva  |Rifiuta  |Approva     |Rifiuta     |      |
-|        |      |     |         |           |modifica |modifica |richiesta   |richiesta   |      |
+|        |Azioni|Dett.|Approva  |Rifiuta    |Approva  |Rifiuta  |Approva     |Rifiuta     |Ripri |
+|        |      |     |         |           |modifica |modifica |richiesta   |richiesta   |stina |
 |        |      |     |         |           |         |         |disabilitaz.|disabilitaz.|      |
 +--------+------+     +         +           +         +         +            +            +      +
-| Stato  |      |     |Form     |Form       |Form     |Form     |Form        |Form        |Ripri |
-|        |      |Dett.|Dettaglio|Dettaglio  |Dettaglio|Dettaglio|Dettaglio   |Dettaglio   |stina |
+| Stato  |      |     |Form     |Form       |Form     |Form     |Form        |Form        |      |
+|        |      |     |Dettaglio|Dettaglio  |Dettaglio|Dettaglio|Dettaglio   |Dettaglio   |      |
 +========+======+=====+=========+===========+=========+=========+============+============+======+
 |Inserimento    |Disp.| Attivo  |Inserimento| n.d.    | n.d.    |n.d.        | n.d.       |n.d.  |
 |in corso       |     |         |rifiutato  |         |         |            |            |      |
