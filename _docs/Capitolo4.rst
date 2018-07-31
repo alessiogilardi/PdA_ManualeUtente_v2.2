@@ -2296,7 +2296,7 @@ Nel caso in cui sia necessario aggiungere un’associazione con “aux digit” 
 
 **Figura 84 – Aggiungi associazione Ente/stazione (vista RT)**
 
-|inserire immagine|
+|image110|
 
 **Figura 85 – Selezione aux digit associazione Ente/stazione (vista RT)**
 
@@ -3303,5 +3303,8 @@ tabella (Figura 102) da cui è possibile scaricare i report desiderati.
    :width: 6.69306in
    :height: 2.53472in
 .. |image107| image:: media/Cap4/image107.png
+   :width: 6.69306in
+   :height: 2.53472in
+   .. |image110| image:: media/Cap4/image110.png
    :width: 6.69306in
    :height: 2.53472in
