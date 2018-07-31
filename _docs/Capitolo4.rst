@@ -1605,11 +1605,11 @@ da un utente con profilo Nodo.
 |        |Azioni|Dett.|Approva  |Rifiuta    |Approva  |Rifiuta  |Approva     |Rifiuta     |Ripri |
 |        |      |     |         |           |         |         |            |            |      |
 |        |      |     |Form     |(Form      |modifica |modifica |richiesta   |richiesta   |stina |
-|               |     |         |           |         |         |            |            |      |
-|        |      |     |         |           |Form     |         |            |disabilitaz.|      |
-+--------+------+     +Dettaglio+Dettaglio) +         +Form     +disabilitaz.+(Form       +      +
-| Stato  |      |     |         |           |Dettaglio|         |(Form       |            |      |
-|        |      |     |         |           |         |Dettaglio|Dettaglio)  |Dettaglio)  |      |
+|        |      |     |         |           |         |         |            |            |      |
+|        |      |     |Dettaglio|Dettaglio) |Form     |Form     |disabilitaz.|disabilitaz.|      |
++--------+------+     +         +           +         +         +            +            +      +
+| Stato  |      |     |         |           |Dettaglio|Dettaglio|(Form       |(Form       |      |
+|        |      |     |         |           |         |         |Dettaglio)  |Dettaglio)  |      |
 +========+======+=====+=========+===========+=========+=========+============+============+======+
 |Inserimento    |Disp.| Attivo  |Inserimento| n.d.    | n.d.    |n.d.        | n.d.       |n.d.  |
 |in corso       |     |         |rifiutato  |         |         |            |            |      |
