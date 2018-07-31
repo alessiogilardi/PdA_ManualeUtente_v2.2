@@ -2001,30 +2001,30 @@ utente del Nodo.
 |       |       |     |inserimento|inserimento|modifica |modifica |richiesta |richiesta |stina |
 |       |       |     |           |           |         |Form     |disabilit.|disabilit.|      |
 |       |       |     |           |           |         |         |          |          |      |
-+-------+-------+     +(Form      +(Form      +Form     +         +(Form     +(Form     +      +
-| Stato |       |     |Dettaglio) |Dettaglio) |Dettaglio|Dettaglio|Dettaglio)|Dettaglio)|      |
++-------+-------+     +Form       +Form       +Form     +         +Form      +Form      +      +
+| Stato |       |     |Dettaglio  |Dettaglio  |Dettaglio|Dettaglio|Dettaglio |Dettaglio |      |
 +=======+=======+=====+===========+===========+=========+=========+==========+==========+======+
-|Inserimento    |Disp.|Attivo     |Inserimento| n.d.    |n.d.     |n.d.      | n.d.     |n.d.  |
+|Inserimento    |Disp.|Attivo     |Inserimento|n.d.     |n.d.     |n.d.      |n.d.      |n.d.  |
 |in corso       |     |           |rifiutato  |         |         |          |          |      |  
 +---------------+-----+-----------+-----------+---------+---------+----------+----------+------+
-|Inserimento    |Disp.|n.d.       | n.d.      | n.d.    |n.d.     |n.d.      | n.d.     |n.d.  |
+|Inserimento    |Disp.|n.d.       |n.d.       |n.d.     |n.d.     |n.d.      |n.d.      |n.d.  |
 |rifiutatato    |     |           |           |         |         |          |          |      |  
 +---------------+-----+-----------+-----------+---------+---------+----------+----------+------+
-|Attivo         |Disp.|n.d.       | n.d.      | n.d.    |n.d.     |n.d.      | n.d.     |n.d.  |
+|Attivo         |Disp.|n.d.       |n.d.       |n.d.     |n.d.     |n.d.      |n.d.      |n.d.  |
 +---------------+-----+-----------+-----------+---------+---------+----------+----------+------+
-|Modifica       |Disp.|n.d.       | n.d.      | Attivo  |Modifica |n.d.      | n.d.     |Attivo|
+|Modifica       |Disp.|n.d.       |n.d.       |Attivo   |Modifica |n.d.      |n.d.      |Attivo|
 |in corso       |     |           |           |         |rifiutata|          |          |      |  
 +---------------+-----+-----------+-----------+---------+---------+----------+----------+------+
-|Modifica       |Disp.|n.d.       | n.d.      | n.d.    | n.d.    |n.d.      | n.d.     |Attivo|
+|Modifica       |Disp.|n.d.       |n.d.       |n.d.     |n.d.     |n.d.      |n.d.      |Attivo|
 |rifiutata      |     |           |           |         |         |          |          |      |
 +---------------+-----+-----------+-----------+---------+---------+----------+----------+------+
-|Disabilitazione|Disp.|n.d.       | n.d.      | n.d.    | n.d.    |n.d.      | n.d.     |n.d.  |
+|Disabilitazione|Disp.|n.d.       |n.d.       |n.d.     |n.d.     |n.d.      |n.d.      |n.d.  |
 |programmata    |     |           |           |         |         |          |          |      |
 +---------------+-----+-----------+-----------+---------+---------+----------+----------+------+
-|Disabilitazione|Disp.|n.d.       | n.d.      | n.d.    | n.d.    |Disabilito| Attivo   |n.d.  |
+|Disabilitazione|Disp.|n.d.       |n.d.       |n.d.     |n.d.     |Disabilito|Attivo    |n.d.  |
 |in corso       |     |           |           |         |         |          |          |      |
 +---------------+-----+-----------+-----------+---------+---------+----------+----------+------+
-|Disabilitato   |Disp.| n.d.      | n.d.      | n.d.    | n.d.    |n.d.      | n.d.     |n.d.  |
+|Disabilitato   |Disp.|n.d.       |n.d.       |n.d.     |n.d.     |n.d.      |n.d.      |n.d.  |
 +---------------+-----+-----------+-----------+---------+---------+----------+----------+------+
 **Tabella 17 - Stati di una stazione in funzione delle azioni eseguite da un utente Nodo**
 
