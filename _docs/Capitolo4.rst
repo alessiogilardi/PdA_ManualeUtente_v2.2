@@ -3302,9 +3302,6 @@ tabella (Figura 102) da cui è possibile scaricare i report desiderati.
 .. |image106| image:: media/Cap4/image106.png
    :width: 6.69306in
    :height: 2.53472in
-.. |image107| image:: media/Cap4/image107.png
-   :width: 6.69306in
-   :height: 2.53472in
-   .. |image110| image:: media/Cap4/image110.png
+.. |image110| image:: media/Cap4/image110.png
    :width: 6.69306in
    :height: 2.53472in
