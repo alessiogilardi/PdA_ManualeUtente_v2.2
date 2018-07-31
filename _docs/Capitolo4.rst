@@ -4,7 +4,7 @@
 +-------------------------------------------------+
 | **Portale delle Adesioni Manuale Utente**       |
 |                                                 |
-| **Versione 2.2 – 17 luglio 2018**               |
+| **Versione 2.2 – 31 luglio 2018**               |
 +-------------------------------------------------+
 
 4. FUNZIONALITÀ ACCESSIBILI CON CREDENZIALI NOMINALI
