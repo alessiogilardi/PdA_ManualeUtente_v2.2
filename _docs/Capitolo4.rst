@@ -1421,41 +1421,41 @@ In Tabella 11 si riportano gli stati che può assumere un IBAN.
 +--------------------------------------+----------------------------+-----------------------+
 | **Stato iniziale**                   | **Azione RP**              | **Stato Finale**      |
 +======================================+============================+=======================+
-| Attivazione programmata              | nessuna                    | Attivazione in corso  |
+| Attivazione programmata              | Nessuna azione è possibile | Attivazione in corso  |
 +--------------------------------------+----------------------------+-----------------------+
-| Attivazione programmata              | modifica                   | Attivazione           |
+| Attivazione programmata              | Modifica                   | Attivazione           |
 |                                      |                            | programmata           |
 +--------------------------------------+----------------------------+-----------------------+
-| Attivazione programmata              | cancellazione              |                       |
+| Attivazione programmata              | Cancellazione              |                       |
 +--------------------------------------+----------------------------+-----------------------+
-| Attivazione in corso                 | nessuna azione è possibile | Attivo                |
+| Attivazione in corso                 | Nessuna azione è possibile | Attivo                |
 +--------------------------------------+----------------------------+-----------------------+
-| Attivo                               | modifica                   | Attivo con modifica   |
+| Attivo                               | Modifica                   | Attivo con modifica   |
 |                                      |                            | programmata           |
 +--------------------------------------+----------------------------+-----------------------+
-| Attivo                               | cancellazione              |                       |
+| Attivo                               | Cancellazione              |                       |
 +--------------------------------------+----------------------------+-----------------------+
-| Attivo con modifica programmata      | nessuna                    | Attivo con modifica   |
+| Attivo con modifica programmata      | Nessuna azione è possibile | Attivo con modifica   |
 |                                      |                            | in corso              |
 +--------------------------------------+----------------------------+-----------------------+
-| Attivo con modifica programmata      | annullamento modifica      | Attivo                |
+| Attivo con modifica programmata      | Annullamento modifica      | Attivo                |
 +--------------------------------------+----------------------------+-----------------------+
-| Attivo con modifica programmata      | modifica                   | Attivo con modifica   |
+| Attivo con modifica programmata      | Modifica                   | Attivo con modifica   |
 |                                      |                            | programmata           |
 +--------------------------------------+----------------------------+-----------------------+
-| Attivo con modifica programmata      | cancellazione              | Attivo con            |
+| Attivo con modifica programmata      | Cancellazione              | Attivo con            |
 |                                      |                            | cancellazione         |
 |                                      |                            | programmata           |
 +--------------------------------------+----------------------------+-----------------------+
-| Attivo con modifica in corso         | nessuna azione è possibile | Attivo                |
+| Attivo con modifica in corso         | Nessuna azione è possibile | Attivo                |
 +--------------------------------------+----------------------------+-----------------------+
-| Attivo con cancellazione programmata | nessuna                    | Attivo con            |
+| Attivo con cancellazione programmata | Nessuna azione è possibile | Attivo con            |
 |                                      |                            | cancellazione in      |
 |                                      |                            | corso                 |
 +--------------------------------------+----------------------------+-----------------------+
-| Attivo con cancellazione programmata | annullamento modifica      | Attivo                |
+| Attivo con cancellazione programmata | Annullamento modifica      | Attivo                |
 +--------------------------------------+----------------------------+-----------------------+
-| Attivo con cancellazione programmata | modifica                   | Attivo con            |
+| Attivo con cancellazione programmata | Modifica                   | Attivo con            |
 |                                      |                            | cancellazione         |
 |                                      |                            | programmata           |
 +--------------------------------------+----------------------------+-----------------------+
@@ -1601,38 +1601,38 @@ La Tabella 14 riporta in modo schematico come cambia lo stato di un
 collegamento fisico in funzione delle azioni (ove disponibili) eseguite
 da un utente con profilo Nodo.
 
-+--------+------+-----+---------+-----------+---------+----------+------------+------------+------+
-|        |Azioni|Dett.|Approva  |Rifiuta    |Approva  |Rifiuta   |Approva     |Rifiuta     |Ripri |
-|        |      |     |         |           |         |          |            |            |      |
-|        |      |     |Form     |(Form      |modifica |modifica  |richiesta   |richiesta   |stina |
-|        |      |     |         |           |         |          |            |disabilitaz.|      |
-+--------+------+     +Dettaglio+Dettaglio) +Form     +(Form     +disabilitaz.+(Form       +      +
-| Stato  |      |     |         |           |         |          |(Form       |            |      |
-|        |      |     |         |           |Dettaglio|Dettaglio)|Dettaglio)  |Dettaglio)  |      |
-+========+======+=====+=========+===========+=========+==========+============+============+======+
-|Inserimento    |Disp.| Attivo  |Inserimento| n.d.    | n.d.     |n.d.        | n.d.       |n.d.  |
-|               |     |         |           |         |          |            |            |      |
-|in corso       |     |         |rifiutato  |         |          |            |            |      |
-+---------------+-----+---------+-----------+---------+----------+------------+------------+------+
-|Inserimento    |Disp.| n.d.    | n.d.      | n.d.    | n.d.     |n.d.        | n.d.       |n.d.  |
-|rifiutato      |     |         |           |         |          |            |            |      |
-+---------------+-----+---------+-----------+---------+----------+------------+------------+------+
-|Attivo         |Disp.| n.d.    | n.d.      | n.d.    | n.d.     |n.d.        | n.d.       |n.d.  |
-+---------------+-----+---------+-----------+---------+----------+------------+------------+------+
-|Modifica       |Disp.| n.d.    | n.d.      | Attivo  |Modifica  |n.d.        | n.d.       |Attivo|
-|in corso       |     |         |           |         |rifiutata |            |            |      |
-+---------------+-----+---------+-----------+---------+----------+------------+------------+------+
-|Modifica       |Disp.| n.d.    | n.d.      | n.d.    | n.d.     |n.d.        | n.d.       |Attivo|
-|rifiutata      |     |         |           |         |          |            |            |      |
-+---------------+-----+---------+-----------+---------+----------+------------+------------+------+
-|Disabilitazione|Disp.| n.d.    | n.d.      | n.d.    | n.d.     |n.d.        | n.d.       |n.d.  |
-|programmata    |     |         |           |         |          |            |            |      |
-+---------------+-----+---------+-----------+---------+----------+------------+------------+------+
-|Disabilitazione|Disp.| n.d.    | n.d.      | n.d.    | n.d.     |Disabilitato| Attivo     |n.d.  |
-|in corso       |     |         |           |         |          |            |            |      |
-+---------------+-----+---------+-----------+---------+----------+------------+------------+------+
-|Disabilitato   |Disp.| n.d.    | n.d.      | n.d.    | n.d.     |n.d.        | n.d.       |n.d.  |
-+---------------+-----+---------+-----------+---------+----------+------------+------------+------+
++--------+------+-----+---------+-----------+---------+---------+------------+------------+------+
+|        |Azioni|Dett.|Approva  |Rifiuta    |Approva  |Rifiuta  |Approva     |Rifiuta     |Ripri |
+|        |      |     |         |           |         |         |            |            |      |
+|        |      |     |Form     |(Form      |modifica |modifica |richiesta   |richiesta   |stina |
+|               |     |         |           |         |         |            |            |      |
+|        |      |     |         |           |Form     |         |            |disabilitaz.|      |
++--------+------+     +Dettaglio+Dettaglio) +         +Form     +disabilitaz.+(Form       +      +
+| Stato  |      |     |         |           |Dettaglio|         |(Form       |            |      |
+|        |      |     |         |           |         |Dettaglio|Dettaglio)  |Dettaglio)  |      |
++========+======+=====+=========+===========+=========+=========+============+============+======+
+|Inserimento    |Disp.| Attivo  |Inserimento| n.d.    | n.d.    |n.d.        | n.d.       |n.d.  |
+|in corso       |     |         |rifiutato  |         |         |            |            |      |
++---------------+-----+---------+-----------+---------+---------+------------+------------+------+
+|Inserimento    |Disp.| n.d.    | n.d.      | n.d.    | n.d.    |n.d.        | n.d.       |n.d.  |
+|rifiutato      |     |         |           |         |         |            |            |      |
++---------------+-----+---------+-----------+---------+---------+------------+------------+------+
+|Attivo         |Disp.| n.d.    | n.d.      | n.d.    | n.d.    |n.d.        | n.d.       |n.d.  |
++---------------+-----+---------+-----------+---------+---------+------------+------------+------+
+|Modifica       |Disp.| n.d.    | n.d.      | Attivo  |Modifica |n.d.        | n.d.       |Attivo|
+|in corso       |     |         |           |         |rifiutata|            |            |      |
++---------------+-----+---------+-----------+---------+---------+------------+------------+------+
+|Modifica       |Disp.| n.d.    | n.d.      | n.d.    | n.d.    |n.d.        | n.d.       |Attivo|
+|rifiutata      |     |         |           |         |         |            |            |      |
++---------------+-----+---------+-----------+---------+---------+------------+------------+------+
+|Disabilitazione|Disp.| n.d.    | n.d.      | n.d.    | n.d.    |n.d.        | n.d.       |n.d.  |
+|programmata    |     |         |           |         |         |            |            |      |
++---------------+-----+---------+-----------+---------+---------+------------+------------+------+
+|Disabilitazione|Disp.| n.d.    | n.d.      | n.d.    | n.d.    |Disabilitato| Attivo     |n.d.  |
+|in corso       |     |         |           |         |         |            |            |      |
++---------------+-----+---------+-----------+---------+---------+------------+------------+------+
+|Disabilitato   |Disp.| n.d.    | n.d.      | n.d.    | n.d.    |n.d.        | n.d.       |n.d.  |
++---------------+-----+---------+-----------+---------+---------+------------+------------+------+
 **Tabella 14 - Stati di un collegamento fisico in funzione delle azioni eseguite da un utente Nodo**
 
 Un utente AgID è in grado di visualizzare solo il dettaglio delle
