@@ -1895,10 +1895,10 @@ L’utente può decidere quante stazioni mostrare in ogni pagina (10, 25,
 La lista delle stazioni viene popolata in funzione del profilo
 dell’utente:
 
--  i Referenti Tecnici visualizzano l’elenco delle stazioni relative ai
+-  I Referenti Tecnici visualizzano l’elenco delle stazioni relative ai
    soggetti per i quali ricoprono quel ruolo (Figura 74);
 
--  gli utenti con profilo SIA e AgID visualizzano tutte le stazioni
+-  Gli utenti con profilo SIA e AgID visualizzano tutte le stazioni
    censite nel PdA (Figura 75).
 
 |image78|
@@ -1999,9 +1999,10 @@ utente del Nodo.
 +-------+-------+-----+-----------+-----------+---------+---------+----------+----------+------+
 |       |Azioni |Dett.|Approva    |Rifiuta    |Approva  |Rifiuta  |Approva   |Rifiuta   |Ripri |
 |       |       |     |inserimento|inserimento|modifica |modifica |richiesta |richiesta |stina |
-|       |       |     |(Form      |(Form      |Form     |Form     |disabilit.|disabilit.|      |
-+-------+-------+     +Dettaglio) +Dettaglio) +Dettaglio+Dettaglio+(Form     +(Form     +      +
-| Stato |       |     |           |           |         |         |Dettaglio)|Dettaglio)|      |
+|       |       |     |           |           |         |Form     |disabilit.|disabilit.|      |
+|       |       |     |           |           |         |         |          |          |      |
++-------+-------+     +(Form      +(Form      +Form     +         +(Form     +(Form     +      +
+| Stato |       |     |Dettaglio) |Dettaglio) |Dettaglio|Dettaglio|Dettaglio)|Dettaglio)|      |
 +=======+=======+=====+===========+===========+=========+=========+==========+==========+======+
 |Inserimento    |Disp.|Attivo     |Inserimento| n.d.    |n.d.     |n.d.      | n.d.     |n.d.  |
 |in corso       |     |           |rifiutato  |         |         |          |          |      |  
@@ -2285,21 +2286,26 @@ I campi del form “Aggiungi stazione” sono riportati in Figura 84:
 
 - Data attivazione
 
-Il RT può soltanto aggiungere associazioni Ente/stazioni con il campo “aux digit” pari a 3, 
-per cui è necessario specificare anche il “codice segregazione” e la data di attivazione.
-Nel caso in cui sia necessario aggiungere un’associazione con “aux digit” diverso da 3, 
-è necessario fare una specifica richiesta di assistenza tecnica.
+Il RT può aggiungere associazioni Ente/stazioni con il campo “aux digit” pari a 0 e 3,
+(figura 85); nnel primo caso deve specificare l’Application Code, nel secondo è necessario 
+specificare il “codice di segregazione”; infine deve indicare la data di attivazione desiderata.
+Nel caso in cui sia necessario aggiungere un’associazione con “aux digit” diverso da 0 e 3, 
+è necessario fare una specifica richiesta di assistenza tecnica (voce di Menu “Assistenza”).
 
 |image89|
 
 **Figura 84 – Aggiungi associazione Ente/stazione (vista RT)**
 
+|inserire immagine|
+
+**Figura 85 – Selezione aux digit associazione Ente/stazione (vista RT)**
+
 Un utente AgID è in grado di aggiungere un’associazione selezionando il campo “aux digit” 
-dai valori disponibili nel menu a tendina (Figura 85).
+dai valori disponibili nel menu a tendina (Figura 86).
 
 |image90|
 
-**Figura 85 – Aggiungi associazione Ente/stazione (vista AgID)**
+**Figura 86 – Aggiungi associazione Ente/stazione (vista AgID)**
 
 4.8.8.2	Disabilita associazione Ente (RT e AgID)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -2308,11 +2314,11 @@ Un utente RT o AgID può procedere alla disabilitazione di un’associazione che
 Viene proposta una maschera in cui è possibile indicare la data di disabilitazione desiderata;
 al salvataggio dei dati l’associazione in oggetto viene posta in stato 
 di CANCELLAZIONE PROGRAMMATA e vi rimarrà fino alla data corrispondente all’inizio del 
-periodo di preavviso (Figura 86).
+periodo di preavviso (Figura 87).
 
 |image91|
 
-**Figura 86 – Disabilita associazione Ente/stazione**
+**Figura 87 – Disabilita associazione Ente/stazione**
 
 4.8.8.3	Annulla disabilitazione associazione (RT e AgID)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -2328,14 +2334,14 @@ Il RT può accedere alla funzionalità di modifica delle informazioni di
 configurazione di una stazione, che si trovi in uno stato attivo o
 rifiutato, cliccando sul pulsante “Modifica stazione”.
 
-La pagina di modifica contiene tutti i parametri di configurazione della stazione valorizzati con le informazioni precedentemente salvate; gli unici campi modificabili (Figura 87) sono:
+La pagina di modifica contiene tutti i parametri di configurazione della stazione valorizzati con le informazioni precedentemente salvate; gli unici campi modificabili (Figura 88) sono:
  
 - URL di servizio
 - Data attivazione.
 
 |image92|
 
-**Figura 87 – Modifica stazione**
+**Figura 88 – Modifica stazione**
 
 4.8.10 Disabilitazione stazione (RT)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2351,7 +2357,7 @@ DISABILITATO.
 
 Nel caso della disabilitazione di una Stazione di Esercizio è necessario
 che il RT inserisca la data di disabilitazione (per la quale è prevista
-l’applicazione di un periodo di preavviso), come mostrato in Figura 88.
+l’applicazione di un periodo di preavviso), come mostrato in Figura 89.
 Il RT avanza la richiesta di
 disabilitazione e lo stato della stazione passa in DISABILITAZIONE
 PROGRAMMATA; non appena inizia il periodo di preavviso (funzione della
@@ -2367,7 +2373,7 @@ data dell’avvenuta disattivazione.
 
 |image93|
 
-**Figura 88 – Disabilitazione di una stazione**
+**Figura 89 – Disabilitazione di una stazione**
 
 Il RT ha la facoltà di annullare la richiesta di disabilitazione di un
 collegamento fisico (oppure modificare la data prevista spostandola in
@@ -2401,13 +2407,13 @@ compilati.
 4.9.1 Visualizzazione Piani di Attivazione (RT)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-La form “Lista Piani di Attivazione” (Figura 89) consente di
+La form “Lista Piani di Attivazione” (Figura 90) consente di
 visualizzare la lista dei Piani di Attivazione, selezionare un piano già
 creato o di aggiungerne uno nuovo.
 
 |image94|
 
-**Figura 89 - Elenco dei Piani di Attivazione**
+**Figura 90 - Elenco dei Piani di Attivazione**
 
 4.9.1.1 Aggiunta di un nuovo Piano di Attivazione (AgID, Nodo)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -2415,7 +2421,7 @@ creato o di aggiungerne uno nuovo.
 Tramite il pulsante “Aggiungi Piano” si genera un nuovo Piano di
 Attivazione associandolo ad una specifica connessione dell’Ente
 Creditore e ad uno specifico modello di pagamento, indicati dal
-Referente dei Pagamenti (vedi Figura 90). Il *form* consente inoltre di
+Referente dei Pagamenti (vedi Figura 91). Il *form* consente inoltre di
 caricare il file Excel del piano di attivazione inviato dal Referente
 Tecnico e di indicare la CR (Call Request) aperta da AgID sul Service
 Desk per poter tracciare tutte le attività incluse nel Piano di
@@ -2425,12 +2431,12 @@ Creditore ed il Referente Tecnico.
 
 |image95|
 
-**Figura 90 - Form di inserimento di un nuovo Piano di Attivazione**
+**Figura 91 - Form di inserimento di un nuovo Piano di Attivazione**
 
 Una volta che il Piano di Attivazione è stato creato il Portale mostra
-un *form* diviso in un’area di dettaglio (Figura 91) ed una in cui
+un *form* diviso in un’area di dettaglio (Figura 92) ed una in cui
 vengono elencate le attività che è necessario portare a compimento per
-permettere all’Ente di andare in esercizio (Figura 92). Per ogni
+permettere all’Ente di andare in esercizio (Figura 93). Per ogni
 attività è possibile indicare la sua data di inizio e di completamento.
 L’area di “Dettaglio” mostra la denominazione dell’Ente Creditore per il
 quale si sta compilando il Piano di Attivazione, il Partner Tecnologico
@@ -2441,7 +2447,7 @@ parte del *form* del Piano.
 
 |image96|
 
-**Figura 91 - Dettaglio di un Piano di Attivazione**
+**Figura 92 - Dettaglio di un Piano di Attivazione**
 
 Al “Dettaglio Piano di Attivazione” segue il piano vero e proprio che
 riporta le attività da svolgere, distinte per “ambiti”: “Connessione al
@@ -2450,7 +2456,7 @@ in esercizio”.
 
 |image97|
 
-**Figura 92 - Maschera di inserimento dei dati di un Piano di Attivazione**
+**Figura 93 - Maschera di inserimento dei dati di un Piano di Attivazione**
 
 Il Portale delle Adesioni invia in automatico una PEC, agli attori
 coinvolti nella specifica attività, quando vengono inserite le date di
@@ -2460,11 +2466,11 @@ già stata inviata sono contraddistinte da una spunta nel box “Mail
 inviata inizio/fine attività”.
 
 Il flusso di informazioni relativo allo scambio di email generato
-dall’inizio o dal completamento delle attività è mostrato in Figura 81.
+dall’inizio o dal completamento delle attività è mostrato in Figura 94.
 
 |image98|
 
-**Figura 93 - Flusso logico di scambio delle informazioni tra gli attori del Piano di Attivazione**
+**Figura 94 - Flusso logico di scambio delle informazioni tra gli attori del Piano di Attivazione**
 
 4.10 Assistenza
 ---------------
@@ -2479,11 +2485,11 @@ problematiche connesse all’assistenza dei soggetti aderenti a pagoPA.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Selezionando la voce di menu “Assistenza”, il Portale propone al
-Referente tecnico la *form* riportata in Figura 94.
+Referente tecnico la *form* riportata in Figura 95.
 
 |image99|
 
-**Figura 94 – Form per la creazione di una richiesta di assistenza**
+**Figura 95 – Form per la creazione di una richiesta di assistenza**
 
 Per ciascun ambito e tipologia di assistenza selezionati dal Referente
 tecnico, il Portale propone uno specifico suggerimento, così come
@@ -2617,13 +2623,13 @@ indicato in Tabella 20.
 **Tabella 20 – Ambito, tipologie di assistenza e suggerimenti**
 
 Il Referente tecnico crea la richiesta di assistenza premendo il
-pulsante “Crea un ticket” presente sulla *form* riportata in Figura 94.
+pulsante “Crea un ticket” presente sulla *form* riportata in Figura 95.
 
 4.10.2 Compilazione richiesta di assistenza (RT)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Il *form* proposto dal Portale riporta le informazioni compilate dal
-Referente tecnico nel form di Figura 94.
+Referente tecnico nel form di Figura 95.
 
 Il Referente tecnico, dopo aver compilato, se del caso, gli ulteriori
 campi previsti dalla *form* (“Ente intermediato” e “Descrizione”) ed
@@ -2632,15 +2638,15 @@ il pulsante “Invia Richiesta”.
 
 |image100|
 
-**Figura 95 – Form per la compilazione per la richiesta di assistenza**
+**Figura 96 – Form per la compilazione per la richiesta di assistenza**
 
 Il Portale, a fronte della richiesta ricevuta, crea il relativo ticket
 sul sistema Service Desk, crea il relativo ticket dandone notizia al
-Referente tecnico, come mostrato in Figura 96.
+Referente tecnico, come mostrato in Figura 97.
 
 |image101|
 
-**Figura 96 – Esito creazione ticket**
+**Figura 97 – Esito creazione ticket**
 
 4.11 Caricamenti massivi (AgID e RT)
 ------------------------------------
@@ -2649,7 +2655,7 @@ La funzionalità “Caricamenti Massivi” permette all’utente abilitato di
 effettuare in una sola volta più operazioni appartenenti alla stessa
 tipologia.
 
-È possibile eseguire 6 diversi tipi di Caricamenti Massivi (Figura 97):
+È possibile eseguire 6 diversi tipi di Caricamenti Massivi (Figura 98):
 
 -  Caricamento IBAN (AgID);
 
@@ -2665,17 +2671,17 @@ tipologia.
 
 |image102|
 
-**Figura 97 – Tipologie Caricamenti Massivi**
+**Figura 98 – Tipologie Caricamenti Massivi**
 
 Ciascun tipo di Caricamento Massivo viene effettuato attraverso l’upload
 sul Portale delle Adesioni di un file in formato csv specializzato per
 tipo operazione, in cui la prima riga è sempre costituita da una testata
 obbligatoria e le restanti righe contengono i dati da caricare. Il
-*form* di caricamento è illustrato in Figura 98.
+*form* di caricamento è illustrato in Figura 99.
 
 |image103|
 
-**Figura 98 - Modulo di caricamento massivo degli IBAN**
+**Figura 99 - Modulo di caricamento massivo degli IBAN**
 
 Vengono analizzate di seguito nel dettaglio le informazioni che è
 necessario indicare per ciascun tracciato con la specifica dei campi
@@ -2855,30 +2861,36 @@ il collaudo, 300 per il pre-esercizio e 400 per l’esercizio).
 “Caricamento. Associazioni Stazioni” permette di associare (in modo massivo) gli Enti alle stazioni. Per ciascuna
 associazioni occorre specificare i dati di Tabella 24.
 
-+--------------------+-----------------+------------------+-----------------------------+
-| **Nome campo**     | **O/N**\*       | **Tipo/Formato** | **Descrizione/Valori**      |
-+====================+=================+==================+=============================+
-| cf                 | O               | 11 cifre         | Codice Fiscale dell’Ente    |
-|                    |                 |                  | Creditore costituito da     |
-|                    |                 |                  | 11 cifre con eventuali zeri |
-|                    |                 |                  | (0) a sinistra.             |
-+--------------------+-----------------+------------------+-----------------------------+
-| idstazione         | O               | Alfanumerico     | Identificativo              |
-|                    |                 |                  | della stazione              |
-+--------------------+-----------------+------------------+-----------------------------+
-| auxdigit           | O               | Alfanumerico     | Indica l’Aux digit          |
-|                    |                 |                  | assegnato all’Ente          |
-+--------------------+-----------------+------------------+-----------------------------+
-| codicesegregazione | N_1             | Numerico         | Valori accettati da 0 a 99  |
-+--------------------+-----------------+------------------+-----------------------------+
-| applicationcode    | N_2             | Numerico         | Valori accettati da 0 a 99  |
-+--------------------+-----------------+------------------+-----------------------------+
-| datavalidita       | O               | Data             | Data in formato aaaa-mm-gg  |
-+--------------------+-----------------+------------------+-----------------------------+
-| operazione         | O               | Stringa (1)      | Tipo Operazione             |
-|                    |                 |                  | (A = Attiva /C = Cancella)  |
-+--------------------+-----------------+------------------+-----------------------------+
-\* O = campo Obbligatorio; N_1 = campo Obbligatorio se il campo Aux digit è 3; N_2 = campo Obbligatorio se il campo Aux digit è 0
++--------------------+-----------------+------------------+-----------------------------------------------+
+| **Nome campo**     | **O/N**\*       | **Tipo/Formato** | **Descrizione/Valori**                        |
++====================+=================+==================+===============================================+
+| cf                 | O               | 11 cifre         | Codice Fiscale dell’Ente                      |
+|                    |                 |                  | Creditore costituito da                       |
+|                    |                 |                  | 11 cifre con eventuali zeri                   |
+|                    |                 |                  | (0) a sinistra.                               |
++--------------------+-----------------+------------------+-----------------------------------------------+
+| idstazione         | O               | Alfanumerico     | Identificativo della stazione                 |
++--------------------+-----------------+------------------+-----------------------------------------------+
+| auxdigit           | O               | Alfanumerico     | Indica l’Aux digit                            |
+|                    |                 |                  | assegnato all’Ente                            |
++--------------------+-----------------+------------------+-----------------------------------------------+
+| codicesegregazione |                 | Numerico         | Valori accettati da 0 a 99.                   |
+|                    |                 |                  | Non DEVE essere valorizzato in caso di        |
+|                    |                 |                  | operazione di tipo A. DEVE essere valorizzato |
+|                    |                 |                  | solo in caso di operazione di tipo D.**       |
++--------------------+-----------------+------------------+-----------------------------------------------+
+| applicationcode    |                 | Numerico         | Valori accettati da 0 a 99.                   |
+|                    |                 |                  | Non DEVE essere valorizzato in caso di        |
+|                    |                 |                  | operazione di tipo A. DEVE essere valorizzato |
+|                    |                 |                  | solo in caso di operazione di tipo D.**       |
++--------------------+-----------------+------------------+-----------------------------------------------+
+| datavalidita       | O               | Data             | Data in formato aaaa-mm-gg                    |
++--------------------+-----------------+------------------+-----------------------------------------------+
+| operazione         | O               | Stringa (1)      | Tipo Operazione                               |
+|                    |                 |                  | (A = Attiva /C = Cancella)                    |
++--------------------+-----------------+------------------+-----------------------------------------------+
+\* O = campo Obbligatorio; ** I valori disponibili a tutte le associazioni sono compresi tra 0 e 48. 
+Gli altri valori sono destinati alla gestione di casi particolari.
 
 **Tabella 24 – Tracciato record per caricamento massivo associazioni Enti/Stazioni**
 
@@ -2960,14 +2972,14 @@ Tutti i caricamenti massivi funzionano secondo la seguente logica:
 
 4. Il Portale delle Adesioni mostra una schermata riassuntiva in cui
    vengono segnalati i record che sono idonei al caricamento e quelli
-   che hanno generato un errore (vedi Figura 99).
+   che hanno generato un errore (vedi Figura 100).
 
 5. Premendo il tasto “Conferma” e dopo aver ulteriormente confermato
    l’operazione nella finestra di pop-up che viene mostrata, i record
    idonei vengono processati. Premendo, invece, il tasto “Ricarica File”
    è possibile specificare un diverso file per il caricamento massivo;
 
-6. La schermata finale (Figura 100) mostra un prospetto delle righe
+6. La schermata finale (Figura 101) mostra un prospetto delle righe
    accettate e di quelle rifiutate. Per quelle rifiutate è mostrato il
    motivo del rifiuto. Premendo il tasto “Report Caricamento xxxx (csv,
    nn Kb)” è possibile scaricare un file csv contenente le informazioni
@@ -2975,11 +2987,11 @@ Tutti i caricamenti massivi funzionano secondo la seguente logica:
 
 |image104|
 
-**Figura 99 - Dettaglio del caricamento massivo da eseguire**
+**Figura 100 - Dettaglio del caricamento massivo da eseguire**
 
 |image105|
 
-**Figura 100 - Risultato del caricamento massivo**
+**Figura 101 - Risultato del caricamento massivo**
 
 4.11.8 Ultimi Report (AgID e RT)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2987,11 +2999,11 @@ Tutti i caricamenti massivi funzionano secondo la seguente logica:
 I report relativi agli ultimi caricamenti massivi effettuati sono
 disponibili sotto la voce “Ultimi Report” della voce di menu
 “Caricamenti Massivi”. Selezionando questa voce viene mostrata una
-tabella (Figura 101) da cui è possibile scaricare i report desiderati.
+tabella (Figura 102) da cui è possibile scaricare i report desiderati.
 
 |image106|
 
-**Figura 101 - Elenco degli ultimi report**
+**Figura 102 - Elenco degli ultimi report**
 
 +----------------+
 | FINE DOCUMENTO |
