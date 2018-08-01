@@ -2287,7 +2287,7 @@ I campi del form “Aggiungi stazione” sono riportati in Figura 84:
 - Data attivazione
 
 Il RT può aggiungere associazioni Ente/stazioni con il campo “aux digit” pari a 0 e 3,
-(figura 85); nnel primo caso deve specificare l’Application Code, nel secondo è necessario 
+(figura 85); nel primo caso deve specificare l’Application Code, nel secondo è necessario 
 specificare il “codice di segregazione”; infine deve indicare la data di attivazione desiderata.
 Nel caso in cui sia necessario aggiungere un’associazione con “aux digit” diverso da 0 e 3, 
 è necessario fare una specifica richiesta di assistenza tecnica (voce di Menu “Assistenza”).
