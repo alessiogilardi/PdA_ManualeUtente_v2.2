@@ -51,7 +51,7 @@ Gli utenti del PdA si suddividono in quattro gruppi:
 
 -  Referenti Tecnici.
 
-Dalla voce di menu Utenti è possibile consultare e, qualora si posseggano i privilegi necessari, 
+Dalla voce di menu Utenti è possibile consultare e, qualora si posseggano i privilegi necessari,
 modificare gli utenti del sistema. Selezionando un gruppo, viene visualizzato l’elenco degli utenti
 registrati sul Portale appartenenti a quel gruppo (Figura 9).
 
@@ -434,7 +434,7 @@ sono:
 |                      |                 |                    | Partner Tecnologico                     |
 +----------------------+-----------------+--------------------+-----------------------------------------+
 | Codice Fiscale       | O               | Alfanumerico       | Codice Fiscale del Referente Tecnico del|
-|                      |                 | (16 caratteri)     | Partner Tecnologico                     |         
+|                      |                 | (16 caratteri)     | Partner Tecnologico                     |
 +----------------------+-----------------+--------------------+-----------------------------------------+
 | Provincia            | F               | Alfanumerico       | Provincia del Referente Tecnico del     |
 |                      |                 |                    | Partner Tecnologico                     |
@@ -860,7 +860,7 @@ csv *export_enti_aaaammgg.csv* con il seguente tracciato:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Dalla voce di menu “Enti Creditori Aderenti”, cliccando sul tasto
-“Esporta IBAN” è possibile scaricare un elenco di tutti gli IBAN censiti 
+“Esporta IBAN” è possibile scaricare un elenco di tutti gli IBAN censiti
 sul Portale delle Adesioni corredato da altre informazioni. Viene generato un file csv
 *export_IBAN_aaaammgg.csv* con il tracciato riportato in Tabella 9:
 
@@ -934,7 +934,7 @@ sul Portale delle Adesioni corredato da altre informazioni. Viene generato un fi
 +-----------------------------------+-----------------------------------+
 **Tabella 9 – Tracciato record file** *export_IBAN_aaaammgg.csv*
 
-Per una trattazione completa della gestione degli IBAN si rimanda :ref:`al § 4.6.2.6. <attivazione-e-gestione-degli-iban-rp>` 
+Per una trattazione completa della gestione degli IBAN si rimanda :ref:`al § 4.6.2.6. <attivazione-e-gestione-degli-iban-rp>`
 
 4.6.2.3 Dettaglio Ente Creditore (RP, RT)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1290,7 +1290,7 @@ Nel caso proposto in Figura 51 il Referente dei Pagamenti può modificare
 solo la “Descrizione IBAN”. La modifica della descrizione associata
 all’IBAN, una volta convalidata, è immediatamente applicata all’IBAN.
 
-La modifica del campo “Banca Seller” associato ad un IBAN (in **Figura 52** 
+La modifica del campo “Banca Seller” associato ad un IBAN (in **Figura 52**
 è mostrato il caso di Banca Seller Unicredit ed in **Figura 53** il
 caso di Banca Seller Poste italiane) è invece un intervento che deve
 essere propagato al Nodo dei Pagamenti-SPC per cui, una volta salvato
@@ -1466,7 +1466,7 @@ In Tabella 11 si riportano gli stati che può assumere un IBAN.
 
 La voce di menu “Collegamento fisico” consente, ai profili abilitati, di
 accedere alle funzionalità che riguardano la gestione dei collegamenti
-fisici utilizzati per connettere la piattaforma del soggetto aderente o del Partner Tecnologico 
+fisici utilizzati per connettere la piattaforma del soggetto aderente o del Partner Tecnologico
 al Nodo dei Pagamenti-SPC. Nel PdA sono raccolte tutte le informazioni tecniche che
 descrivono tali collegamenti.
 
@@ -2005,15 +2005,15 @@ utente del Nodo.
 | Stato |       |     |Dettaglio  |Dettaglio  |Dettaglio|Dettaglio|Dettaglio |Dettaglio |      |
 +=======+=======+=====+===========+===========+=========+=========+==========+==========+======+
 |Inserimento    |Disp.|Attivo     |Inserimento|n.d.     |n.d.     |n.d.      |n.d.      |n.d.  |
-|in corso       |     |           |rifiutato  |         |         |          |          |      |  
+|in corso       |     |           |rifiutato  |         |         |          |          |      |
 +---------------+-----+-----------+-----------+---------+---------+----------+----------+------+
 |Inserimento    |Disp.|n.d.       |n.d.       |n.d.     |n.d.     |n.d.      |n.d.      |n.d.  |
-|rifiutatato    |     |           |           |         |         |          |          |      |  
+|rifiutatato    |     |           |           |         |         |          |          |      |
 +---------------+-----+-----------+-----------+---------+---------+----------+----------+------+
 |Attivo         |Disp.|n.d.       |n.d.       |n.d.     |n.d.     |n.d.      |n.d.      |n.d.  |
 +---------------+-----+-----------+-----------+---------+---------+----------+----------+------+
 |Modifica       |Disp.|n.d.       |n.d.       |Attivo   |Modifica |n.d.      |n.d.      |Attivo|
-|in corso       |     |           |           |         |rifiutata|          |          |      |  
+|in corso       |     |           |           |         |rifiutata|          |          |      |
 +---------------+-----+-----------+-----------+---------+---------+----------+----------+------+
 |Modifica       |Disp.|n.d.       |n.d.       |n.d.     |n.d.     |n.d.      |n.d.      |Attivo|
 |rifiutata      |     |           |           |         |         |          |          |      |
@@ -2076,9 +2076,9 @@ in Figura 76.
 
 All’utente è richiesto di selezionare il file di input e sottoporlo
 all’elaborazione. Il tracciato del file per il caricamento massivo deve
-essere come indicato :ref:`in § 4.11.4. <caricamento-associazioni-stazioni>` 
+essere come indicato :ref:`in § 4.11.4. <caricamento-associazioni-stazioni>`
 Per quanto riguarda la logica di
-funzionamento del caricamento massivo si può far 
+funzionamento del caricamento massivo si può far
 riferimento :ref:`al § 4.11.7. <logica-di-funzionamento-del-caricamento-massivo>`
 
 4.8.6 Aggiungi stazione (RT)
@@ -2239,7 +2239,7 @@ Gli utenti, in funzione del loro profilo, possono eseguire le azioni mostrate in
 +-----------------------------+------------------------------------+-------------+-------------+
 **Tabella 18 - Azioni disponibili per i profili abilitati**
 
-La Tabella 19 riporta in modo schematico come cambia lo stato di un’associazione 
+La Tabella 19 riporta in modo schematico come cambia lo stato di un’associazione
 Ente/Stazione in funzione delle azioni (ove disponibili) eseguite da un utente RT o AgID.
 
 +------------------+--------------+----------------------------------+-----------------------------+
@@ -2259,7 +2259,7 @@ Ente/Stazione in funzione delle azioni (ove disponibili) eseguite da un utente R
 +---------------------------------+----------------------------------+-----------------------------+
 **Tabella 19 - Stati di una stazione in funzione delle azioni eseguite da un RT o AgID**
 
-In presenza di un’associazione in stato “Cancellata”, l’utente può inserire una nuova associazione 
+In presenza di un’associazione in stato “Cancellata”, l’utente può inserire una nuova associazione
 per il medesimo Ente con l’azione “Associa Ente”. La nuova associazione sarà in stato “Associazione in corso”.
 
 4.8.8.1 Associa Ente (RT e AgID)
@@ -2270,8 +2270,8 @@ L’associazione tra Enti e Stazioni potrà avvenire in due modi:
 
 - Associazione tramite caricamento massivo.
 
-In entrambe le modalità di gestione dovrà essere valorizzato anche il campo data validità della richiesta.  
-L’associazione tra stazione ed Ente Creditore non tiene conto dello stato in cui si trova la connessione dell’ente. 
+In entrambe le modalità di gestione dovrà essere valorizzato anche il campo data validità della richiesta.
+L’associazione tra stazione ed Ente Creditore non tiene conto dello stato in cui si trova la connessione dell’ente.
 Viene valutata soltanto la presenza di una connessione logica tra Ente e l’Intermediario / Partner proprietario della stazione [4]_
 
 I campi del form “Aggiungi stazione” sono riportati in Figura 84:
@@ -2287,9 +2287,9 @@ I campi del form “Aggiungi stazione” sono riportati in Figura 84:
 - Data attivazione
 
 Il RT può aggiungere associazioni Ente/stazioni con il campo “aux digit” pari a 0 e 3,
-(figura 85); nel primo caso deve specificare l’Application Code, nel secondo è necessario 
+(figura 85); nel primo caso deve specificare l’Application Code, nel secondo è necessario
 specificare il “codice di segregazione”; infine deve indicare la data di attivazione desiderata.
-Nel caso in cui sia necessario aggiungere un’associazione con “aux digit” diverso da 0 e 3, 
+Nel caso in cui sia necessario aggiungere un’associazione con “aux digit” diverso da 0 e 3,
 è necessario fare una specifica richiesta di assistenza tecnica (voce di Menu “Assistenza”).
 
 |image89|
@@ -2300,7 +2300,7 @@ Nel caso in cui sia necessario aggiungere un’associazione con “aux digit” 
 
 **Figura 85 – Selezione aux digit associazione Ente/stazione (vista RT)**
 
-Un utente AgID è in grado di aggiungere un’associazione selezionando il campo “aux digit” 
+Un utente AgID è in grado di aggiungere un’associazione selezionando il campo “aux digit”
 dai valori disponibili nel menu a tendina (Figura 86).
 
 |image90|
@@ -2309,11 +2309,11 @@ dai valori disponibili nel menu a tendina (Figura 86).
 
 4.8.8.2	Disabilita associazione Ente (RT e AgID)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Un utente RT o AgID può procedere alla disabilitazione di un’associazione che si trovi nello stato 
+Un utente RT o AgID può procedere alla disabilitazione di un’associazione che si trovi nello stato
 “Attiva” attraverso l’azione “Disabilita associazione Ente”.
 Viene proposta una maschera in cui è possibile indicare la data di disabilitazione desiderata;
-al salvataggio dei dati l’associazione in oggetto viene posta in stato 
-di CANCELLAZIONE PROGRAMMATA e vi rimarrà fino alla data corrispondente all’inizio del 
+al salvataggio dei dati l’associazione in oggetto viene posta in stato
+di CANCELLAZIONE PROGRAMMATA e vi rimarrà fino alla data corrispondente all’inizio del
 periodo di preavviso (Figura 87).
 
 |image91|
@@ -2323,8 +2323,8 @@ periodo di preavviso (Figura 87).
 4.8.8.3	Annulla disabilitazione associazione (RT e AgID)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-È possibile per un utente RT o AgID annullare la richiesta di disabilitazione di un’associazione 
-mediante l’azione in tabella “Annulla disabilitazione”. Al termina della procedura l’associazione 
+È possibile per un utente RT o AgID annullare la richiesta di disabilitazione di un’associazione
+mediante l’azione in tabella “Annulla disabilitazione”. Al termina della procedura l’associazione
 tornerà nello stato “Attiva”.
 
 4.8.9 Modifica stazione (RT)
@@ -2335,7 +2335,7 @@ configurazione di una stazione, che si trovi in uno stato attivo o
 rifiutato, cliccando sul pulsante “Modifica stazione”.
 
 La pagina di modifica contiene tutti i parametri di configurazione della stazione valorizzati con le informazioni precedentemente salvate; gli unici campi modificabili (Figura 88) sono:
- 
+
 - URL di servizio
 - Data attivazione.
 
@@ -2389,7 +2389,7 @@ collegamento fisico e indicare come completata l’operazione.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 È possibile per un operatore del Nodo ripristinare l’ultima
-configurazione attiva di una stazioneannullando tutte le ultime 
+configurazione attiva di una stazioneannullando tutte le ultime
 modifiche apportate alla configurazione.
 
 4.9 Piani di attivazione
@@ -2815,7 +2815,7 @@ il collaudo, 300 per il pre-esercizio e 400 per l’esercizio).
 |                        |           |                  | zeri (0) a sinistra.                            |
 +------------------------+-----------+------------------+-------------------------------------------------+
 | codiceipa              | O         | Alfanumerico     | Codice IPA dell’Ente                            |
-|                        |           |                  | Creditore registrato                            | 
+|                        |           |                  | Creditore registrato                            |
 |                        |           |                  | nell’Indice                                     |
 |                        |           |                  | delle Pubbliche                                 |
 |                        |           |                  | Amministrazioni                                 |
@@ -2889,7 +2889,7 @@ associazioni occorre specificare i dati di Tabella 24.
 | operazione         | O               | Stringa (1)      | Tipo Operazione                               |
 |                    |                 |                  | (A = Attiva /C = Cancella)                    |
 +--------------------+-----------------+------------------+-----------------------------------------------+
-\* O = campo Obbligatorio; ** I valori disponibili a tutte le associazioni sono compresi tra 0 e 48. 
+\* O = campo Obbligatorio; ** I valori disponibili a tutte le associazioni sono compresi tra 0 e 48.
 Gli altri valori sono destinati alla gestione di casi particolari.
 
 **Tabella 24 – Tracciato record per caricamento massivo associazioni Enti/Stazioni**
@@ -3010,8 +3010,8 @@ tabella (Figura 102) da cui è possibile scaricare i report desiderati.
 +----------------+
 
 .. [4]
-   Si rammenta che i parametri di configurazione dell’associazione vanno scelti secondo quanto specificato 
-   nell’Allegato B alle "Linee guida per l'effettuazione dei pagamenti elettronici a favore delle pubbliche 
+   Si rammenta che i parametri di configurazione dell’associazione vanno scelti secondo quanto specificato
+   nell’Allegato B alle "Linee guida per l'effettuazione dei pagamenti elettronici a favore delle pubbliche
    amministrazioni e dei gestori di pubblici servizi".
 
 .. |image0| image:: media/header.png
