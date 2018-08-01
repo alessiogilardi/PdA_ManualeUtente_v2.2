@@ -1964,10 +1964,9 @@ La Tabella 16 riporta in modo schematico come cambia lo stato di una
 stazione in funzione delle azioni (ove disponibili) eseguite da un RT.
 
 +------------------+--------------+-------------------+----------------------+-----------------+--------------------+
-|                  | **Azioni**   | **Dettaglio**     | **Modifica**         | **Disabilita**\*| **Annulla**        |
-|                  |              |                   |                      |                 | **disabilitzione** |
-+------------------+--------------+                   |                      |                 |                    |
-| **Stato**        |              |                   |                      |                 |                    |
+|                  | **Azioni**   |                   |                      |                 |                    |
++------------------+--------------+                   |                      |                 | **Annulla**        |
+| **Stato**        |              | **Dettaglio**     | **Modifica**         | **Disabilita**\*| **disabilitzione** |
 +==================+==============+===================+======================+=================+====================+
 | **Inserimento in corso**        | Associa Enti n.d. | n.d.                 | n.d.            | n.d.               |
 +---------------------------------+-------------------+----------------------+-----------------+--------------------+
@@ -1981,7 +1980,7 @@ stazione in funzione delle azioni (ove disponibili) eseguite da un RT.
 | **Modifica riufiutata**         | Associa Enti n.d. | Modifica in corso    | n.d.            | n.d.               |
 +---------------------------------+-------------------+----------------------+-----------------+--------------------+
 | **Disabilitazione programmata** | Associa Enti n.d. | Disabilitazione      | n.d.            | Attivo             |
-|                                 |                   | programmata          | n.d.            |                    |
+|                                 |                   | programmata          |                 |                    |
 +---------------------------------+-------------------+----------------------+-----------------+--------------------+
 | **Disabilitazione in corso**    | Associa Enti n.d. | n.d.                 | n.d.            | n.d.               |
 +---------------------------------+-------------------+----------------------+-----------------+--------------------+
