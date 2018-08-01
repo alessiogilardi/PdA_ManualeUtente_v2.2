@@ -413,7 +413,9 @@ sono:
 +----------------------+------------+--------------------+-----------------------------------------+
 | Indirizzo            | F          | Alfanumerico       | Indirizzo del Partner Tecnologico       |
 +----------------------+------------+--------------------+-----------------------------------------+
-| CAP                  | F          | Numerico (5 cifre) | CAP del Partner Tecnologico             |
+| CAP                  | F          | Numerico           | CAP del Partner Tecnologico             |
+|                      |            |                    |                                         |
+|                      |            | (5 cifre)          |                                         |
 +----------------------+------------+--------------------+-----------------------------------------+
 | Email                | O          | Alfanumerico       | Email del Referente Tecnico del Partner |
 |                      |            |                    | Tecnologico                             |
@@ -442,8 +444,9 @@ sono:
 | Città                | F          | Alfanumerico       | Città del Referente Tecnico del Partner |
 |                      |            |                    | Tecnologico                             |
 +----------------------+------------+--------------------+-----------------------------------------+
-| CAP                  | F          | Numerico (5 cifre) | CAP del Referente Tecnico del Partner   |
+| CAP                  | F          | Numerico           | CAP del Referente Tecnico del Partner   |
 |                      |            |                    | Tecnologico                             |
+|                      |            | (5 cifre)          |                                         |
 +----------------------+------------+--------------------+-----------------------------------------+
 **Tabella 6 - Elenco delle informazioni da inserire per il censimento di un nuovo Partner**
 
