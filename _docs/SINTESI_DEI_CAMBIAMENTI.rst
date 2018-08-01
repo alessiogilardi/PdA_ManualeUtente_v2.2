@@ -11,16 +11,16 @@
 SINTESI DEI CAMBIAMENTI
 =======================
 
-+------------------------------------------------------------------------+
-| **Lista dei principali cambiamenti rispetto la revisione precedente:** |
-+------------------------------------------------------------------------+
-| Gestione dei collegamenti fisici e delle stazioni di un soggetto       |
-| direttamente connettesso al Nodo                                       |
-+------------------------------------------------------------------------+
-| Gestione  dell’associazione tra soggetto direttamente connesso al Nodo |
-| ed EC intermediati con attribuzione di                                 |
-| aux digit e application code/codice segregazione                       |
-+------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| **Lista dei principali cambiamenti rispetto alla revisione precedente:** |
++--------------------------------------------------------------------------+
+| Gestione dei collegamenti fisici e delle stazioni di un soggetto         |
+| direttamente connettesso al Nodo                                         |
++--------------------------------------------------------------------------+
+| Gestione  dell’associazione tra soggetto direttamente connesso al Nodo   |
+| ed EC intermediati con attribuzione di                                   |
+| aux digit e application code/codice segregazione                         |
++--------------------------------------------------------------------------+
 
 
 .. |image0| image:: media/header.png
