@@ -395,56 +395,56 @@ Selezionando “Aggiungi Partner Tecnologico” viene mostrata un *form* in
 cui sono evidenziati con un asterisco i campi obbligatori. I dati da inserire
 sono:
 
-+----------------------+-----------------+--------------------+-----------------------------------------+
-| **Nome campo**       | **O/F**\*       | **Tipo/Formato**   | **Descrizione/Valori**                  |
-+======================+=================+====================+=========================================+
-| Ragione Sociale      | O               | Alfanumerico       | Ragione Sociale del Partner Tecnologico |
-+----------------------+-----------------+--------------------+-----------------------------------------+
-| Cod. Fiscale / P.Iva | O               | Alfanumerico       | Codice Fiscale o Partita IVA dell’Ente  |
-|                      |                 |                    | dell’Ente Creditore registrato          |
-|                      |                 |                    | nell’Indice Ragione Sociale del Partner |
-|                      |                 |                    | Tecnologico                             |
-+----------------------+-----------------+--------------------+-----------------------------------------+
-| Email PEC            | O               | Alfanumerico       | PEC del Partner Tecnologico             |
-+----------------------+-----------------+--------------------+-----------------------------------------+
-| Provincia            | F               | Alfanumerico       | Provincia del Partner Tecnologico       |
-+----------------------+-----------------+--------------------+-----------------------------------------+
-| Città                | F               | Alfanumerico       | Città del Partner Tecnologico           |
-+----------------------+-----------------+--------------------+-----------------------------------------+
-| Indirizzo            | F               | Alfanumerico       | Indirizzo del Partner Tecnologico       |
-+----------------------+-----------------+--------------------+-----------------------------------------+
-| CAP                  | F               | Numerico (5 cifre) | CAP del Partner Tecnologico             |
-+----------------------+-----------------+--------------------+-----------------------------------------+
-| Email                | O               | Alfanumerico       | Email del Referente Tecnico del Partner |
-|                      |                 |                    | Tecnologico                             |
-+----------------------+-----------------+--------------------+-----------------------------------------+
-| Nome                 | O               | Alfanumerico       | Nome del Referente Tecnico del Partner  |
-|                      |                 |                    | Tecnologico                             |
-+----------------------+-----------------+--------------------+-----------------------------------------+
-| Cognome              | O               | Alfanumerico       | Cognome del Referente Tecnico del       |
-|                      |                 |                    | Partner  Tecnologico                    |
-+----------------------+-----------------+--------------------+-----------------------------------------+
-| Qualifica/Posizione  | F               | Alfanumerico       | Qualifica o Posizione del Referente     |
-|                      |                 |                    | Tecnico del Partner Tecnologico         |
-+----------------------+-----------------+--------------------+-----------------------------------------+
-| Recapito Telefonico  | F               | Numerico           | Telefono del Referente Tecnico del      |
-|                      |                 |                    | Partner Tecnologico                     |
-+----------------------+-----------------+--------------------+-----------------------------------------+
-| Recapito Cellulare   | F               | Numerico           | Cellulare del Referente Tecnico del     |
-|                      |                 |                    | Partner Tecnologico                     |
-+----------------------+-----------------+--------------------+-----------------------------------------+
-| Codice Fiscale       | O               | Alfanumerico       | Codice Fiscale del Referente Tecnico del|
-|                      |                 | (16 caratteri)     | Partner Tecnologico                     |         
-+----------------------+-----------------+--------------------+-----------------------------------------+
-| Provincia            | F               | Alfanumerico       | Provincia del Referente Tecnico del     |
-|                      |                 |                    | Partner Tecnologico                     |
-+----------------------+-----------------+--------------------+-----------------------------------------+
-| Città                | F               | Alfanumerico       | Città del Referente Tecnico del Partner |
-|                      |                 |                    | Tecnologico                             |
-+----------------------+-----------------+--------------------+-----------------------------------------+
-| CAP                  | F               | Numerico (5 cifre) | CAP del Referente Tecnico del Partner   |
-|                      |                 |                    | Tecnologico                             |
-+----------------------+-----------------+--------------------+-----------------------------------------+
++----------------------+------------+--------------------+-----------------------------------------+
+| **Nome campo**       | **O/F**\*  | **Tipo/Formato**   | **Descrizione/Valori**                  |
++======================+============+====================+=========================================+
+| Ragione Sociale      | O          | Alfanumerico       | Ragione Sociale del Partner Tecnologico |
++----------------------+------------+--------------------+-----------------------------------------+
+| Cod. Fiscale / P.Iva | O          | Alfanumerico       | Codice Fiscale o Partita IVA dell’Ente  |
+|                      |            |                    | dell’Ente Creditore registrato          |
+|                      |            |                    | nell’Indice Ragione Sociale del Partner |
+|                      |            |                    | Tecnologico                             |
++----------------------+------------+--------------------+-----------------------------------------+
+| Email PEC            | O          | Alfanumerico       | PEC del Partner Tecnologico             |
++----------------------+------------+--------------------+-----------------------------------------+
+| Provincia            | F          | Alfanumerico       | Provincia del Partner Tecnologico       |
++----------------------+------------+--------------------+-----------------------------------------+
+| Città                | F          | Alfanumerico       | Città del Partner Tecnologico           |
++----------------------+------------+--------------------+-----------------------------------------+
+| Indirizzo            | F          | Alfanumerico       | Indirizzo del Partner Tecnologico       |
++----------------------+------------+--------------------+-----------------------------------------+
+| CAP                  | F          | Numerico (5 cifre) | CAP del Partner Tecnologico             |
++----------------------+------------+--------------------+-----------------------------------------+
+| Email                | O          | Alfanumerico       | Email del Referente Tecnico del Partner |
+|                      |            |                    | Tecnologico                             |
++----------------------+------------+--------------------+-----------------------------------------+
+| Nome                 | O          | Alfanumerico       | Nome del Referente Tecnico del Partner  |
+|                      |            |                    | Tecnologico                             |
++----------------------+------------+--------------------+-----------------------------------------+
+| Cognome              | O          | Alfanumerico       | Cognome del Referente Tecnico del       |
+|                      |            |                    | Partner  Tecnologico                    |
++----------------------+------------+--------------------+-----------------------------------------+
+| Qualifica/Posizione  | F          | Alfanumerico       | Qualifica o Posizione del Referente     |
+|                      |            |                    | Tecnico del Partner Tecnologico         |
++----------------------+------------+--------------------+-----------------------------------------+
+| Recapito Telefonico  | F          | Numerico           | Telefono del Referente Tecnico del      |
+|                      |            |                    | Partner Tecnologico                     |
++----------------------+------------+--------------------+-----------------------------------------+
+| Recapito Cellulare   | F          | Numerico           | Cellulare del Referente Tecnico del     |
+|                      |            |                    | Partner Tecnologico                     |
++----------------------+------------+--------------------+-----------------------------------------+
+| Codice Fiscale       | O          | Alfanumerico       | Codice Fiscale del Referente Tecnico del|
+|                      |            | (16 caratteri)     | Partner Tecnologico                     |         
++----------------------+------------+--------------------+-----------------------------------------+
+| Provincia            | F          | Alfanumerico       | Provincia del Referente Tecnico del     |
+|                      |            |                    | Partner Tecnologico                     |
++----------------------+------------+--------------------+-----------------------------------------+
+| Città                | F          | Alfanumerico       | Città del Referente Tecnico del Partner |
+|                      |            |                    | Tecnologico                             |
++----------------------+------------+--------------------+-----------------------------------------+
+| CAP                  | F          | Numerico (5 cifre) | CAP del Referente Tecnico del Partner   |
+|                      |            |                    | Tecnologico                             |
++----------------------+------------+--------------------+-----------------------------------------+
 **Tabella 6 - Elenco delle informazioni da inserire per il censimento di un nuovo Partner**
 
 |image21|
