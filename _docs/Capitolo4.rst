@@ -395,6 +395,7 @@ Selezionando “Aggiungi Partner Tecnologico” viene mostrata un *form* in
 cui sono evidenziati con un asterisco i campi obbligatori. I dati da inserire
 sono:
 
+<<<<<<< HEAD
 +----------------------+-----------------+--------------------+-----------------------------------------+
 | **Nome campo**       | **O/F**\*       | **Tipo/Formato**   | **Descrizione/Valori**                  |
 +======================+=================+====================+=========================================+
@@ -445,6 +446,61 @@ sono:
 | CAP                  | F               | Numerico (5 cifre) | CAP del Referente Tecnico del Partner   |
 |                      |                 |                    | Tecnologico                             |
 +----------------------+-----------------+--------------------+-----------------------------------------+
+=======
++----------------------+------------+--------------------+-----------------------------------------+
+| **Nome campo**       | **O/F**\*  | **Tipo/Formato**   | **Descrizione/Valori**                  |
++======================+============+====================+=========================================+
+| Ragione Sociale      | O          | Alfanumerico       | Ragione Sociale del Partner Tecnologico |
++----------------------+------------+--------------------+-----------------------------------------+
+| Cod. Fiscale / P.Iva | O          | Alfanumerico       | Codice Fiscale o Partita IVA dell’Ente  |
+|                      |            |                    | dell’Ente Creditore registrato          |
+|                      |            |                    | nell’Indice Ragione Sociale del Partner |
+|                      |            |                    | Tecnologico                             |
++----------------------+------------+--------------------+-----------------------------------------+
+| Email PEC            | O          | Alfanumerico       | PEC del Partner Tecnologico             |
++----------------------+------------+--------------------+-----------------------------------------+
+| Provincia            | F          | Alfanumerico       | Provincia del Partner Tecnologico       |
++----------------------+------------+--------------------+-----------------------------------------+
+| Città                | F          | Alfanumerico       | Città del Partner Tecnologico           |
++----------------------+------------+--------------------+-----------------------------------------+
+| Indirizzo            | F          | Alfanumerico       | Indirizzo del Partner Tecnologico       |
++----------------------+------------+--------------------+-----------------------------------------+
+| CAP                  | F          | Numerico           | CAP del Partner Tecnologico             |
+|                      |            |                    |                                         |
+|                      |            | (5 cifre)          |                                         |
++----------------------+------------+--------------------+-----------------------------------------+
+| Email                | O          | Alfanumerico       | Email del Referente Tecnico del Partner |
+|                      |            |                    | Tecnologico                             |
++----------------------+------------+--------------------+-----------------------------------------+
+| Nome                 | O          | Alfanumerico       | Nome del Referente Tecnico del Partner  |
+|                      |            |                    | Tecnologico                             |
++----------------------+------------+--------------------+-----------------------------------------+
+| Cognome              | O          | Alfanumerico       | Cognome del Referente Tecnico del       |
+|                      |            |                    | Partner  Tecnologico                    |
++----------------------+------------+--------------------+-----------------------------------------+
+| Qualifica/Posizione  | F          | Alfanumerico       | Qualifica o Posizione del Referente     |
+|                      |            |                    | Tecnico del Partner Tecnologico         |
++----------------------+------------+--------------------+-----------------------------------------+
+| Recapito Telefonico  | F          | Numerico           | Telefono del Referente Tecnico del      |
+|                      |            |                    | Partner Tecnologico                     |
++----------------------+------------+--------------------+-----------------------------------------+
+| Recapito Cellulare   | F          | Numerico           | Cellulare del Referente Tecnico del     |
+|                      |            |                    | Partner Tecnologico                     |
++----------------------+------------+--------------------+-----------------------------------------+
+| Codice Fiscale       | O          | Alfanumerico       | Codice Fiscale del Referente Tecnico del|
+|                      |            | (16 caratteri)     | Partner Tecnologico                     |         
++----------------------+------------+--------------------+-----------------------------------------+
+| Provincia            | F          | Alfanumerico       | Provincia del Referente Tecnico del     |
+|                      |            |                    | Partner Tecnologico                     |
++----------------------+------------+--------------------+-----------------------------------------+
+| Città                | F          | Alfanumerico       | Città del Referente Tecnico del Partner |
+|                      |            |                    | Tecnologico                             |
++----------------------+------------+--------------------+-----------------------------------------+
+| CAP                  | F          | Numerico           | CAP del Referente Tecnico del Partner   |
+|                      |            |                    | Tecnologico                             |
+|                      |            | (5 cifre)          |                                         |
++----------------------+------------+--------------------+-----------------------------------------+
+>>>>>>> a8e2c65047da969602a27ed096883ad79632ace4
 **Tabella 6 - Elenco delle informazioni da inserire per il censimento di un nuovo Partner**
 
 |image21|
@@ -1569,32 +1625,28 @@ La Tabella 13 riporta in modo schematico come cambia lo stato di un
 collegamento fisico in funzione delle azioni (ove disponibili) eseguite
 da un RT.
 
-+------------------+--------------+---------------+-----------------+-----------------+--------------------+
-|                  | **Azioni**   |               |                 |                 |                    |
-|                  |              | **Dettaglio** | **Modifica**    | **Disabilita**  | **Annulla**        |
-+------------------+--------------+               |                 |                 | **disabilitzione** |
-| **Stato**        |              |               |                 |                 |                    |
-+==================+==============+===============+=================+=================+====================+
-| **Inserimento in corso**        | Disp.         | n.d.            | n.d.            | n.d.               |
-+---------------------------------+---------------+-----------------+-----------------+--------------------+
-| **Inserimento rifiutato**       | Disp.         | Inserimento     | n.d.            | n.d.               |
-|                                 |               | in corso        |                 |                    |
-+---------------------------------+---------------+-----------------+-----------------+--------------------+
-| **Attivo**                      | Disp.         | Modifica        | Disabilitazione | n.d.               |
-|                                 |               | in corso        | programmata     |                    |
-+---------------------------------+---------------+-----------------+-----------------+--------------------+
-| **Modifica in corso**           | Disp.         | n.d.            | n.d.            | n.d.               |
-+---------------------------------+---------------+-----------------+-----------------+--------------------+
-| **Modifica rifiutata**          | Disp.         | modifica        | n.d.            | n.d.               |
-|                                 |               | in corso        |                 |                    |
-+---------------------------------+---------------+-----------------+-----------------+--------------------+
-| **Disabilitazione programmata** | Disp.         | Disabilitazione | n.d.            | Attivo             |
-|                                 |               | programmata     |                 |                    |
-+---------------------------------+---------------+-----------------+-----------------+--------------------+
-| **Disabilitazione in corso**    | Disp.         | n.d.            | n.d.            | n.d.               |
-+---------------------------------+---------------+-----------------+-----------------+--------------------+
-| **Disabilitato**                | Disp.         | n.d.            | n.d.            | n.d.               |
-+---------------------------------+---------------+-----------------+-----------------+--------------------+
++------------------+--------------+---------------+-----------------------------+-----------------+--------------------+
+|                  | **Azioni**   |               |                             |                 |                    |
++------------------+--------------+ **Dettaglio** | **Modifica**                | **Disabilita**  | **Annulla**        |
+| **Stato**        |              |               |                             |                 | **disabilitzione** |
++==================+==============+===============+=============================+=================+====================+
+| **Inserimento in corso**        | Disp.         | n.d.                        | n.d.            | n.d.               |
++---------------------------------+---------------+-----------------------------+-----------------+--------------------+
+| **Inserimento rifiutato**       | Disp.         | Inserimento in corso        | n.d.            | n.d.               |
++---------------------------------+---------------+-----------------------------+-----------------+--------------------+
+| **Attivo**                      | Disp.         | Modifica in corso           | Disabilitazione | n.d.               |
+|                                 |               |                             | programmata     |                    |
++---------------------------------+---------------+-----------------------------+-----------------+--------------------+
+| **Modifica in corso**           | Disp.         | n.d.                        | n.d.            | n.d.               |
++---------------------------------+---------------+-----------------------------+-----------------+--------------------+
+| **Modifica rifiutata**          | Disp.         | Modifica in corso           | n.d.            | n.d.               |
++---------------------------------+---------------+-----------------------------+-----------------+--------------------+
+| **Disabilitazione programmata** | Disp.         | Disabilitazione programmata | n.d.            | Attivo             |
++---------------------------------+---------------+-----------------------------+-----------------+--------------------+
+| **Disabilitazione in corso**    | Disp.         | n.d.                        | n.d.            | n.d.               |
++---------------------------------+---------------+-----------------------------+-----------------+--------------------+
+| **Disabilitato**                | Disp.         | n.d.                        | n.d.            | n.d.               |
++---------------------------------+---------------+-----------------------------+-----------------+--------------------+
 **Tabella 13 – Stati di un collegamento fisico in funzione delle azioni eseguite da un RT**
 
 La Tabella 14 riporta in modo schematico come cambia lo stato di un
@@ -1965,10 +2017,9 @@ La Tabella 16 riporta in modo schematico come cambia lo stato di una
 stazione in funzione delle azioni (ove disponibili) eseguite da un RT.
 
 +------------------+--------------+-------------------+----------------------+-----------------+--------------------+
-|                  | **Azioni**   | **Dettaglio**     | **Modifica**         | **Disabilita**\*| **Annulla**        |
-|                  |              |                   |                      |                 | **disabilitzione** |
-+------------------+--------------+                   |                      |                 |                    |
-| **Stato**        |              |                   |                      |                 |                    |
+|                  | **Azioni**   |                   |                      |                 |                    |
++------------------+--------------+                   |                      |                 | **Annulla**        |
+| **Stato**        |              | **Dettaglio**     | **Modifica**         | **Disabilita**\*| **disabilitzione** |
 +==================+==============+===================+======================+=================+====================+
 | **Inserimento in corso**        | Associa Enti n.d. | n.d.                 | n.d.            | n.d.               |
 +---------------------------------+-------------------+----------------------+-----------------+--------------------+
@@ -1982,7 +2033,7 @@ stazione in funzione delle azioni (ove disponibili) eseguite da un RT.
 | **Modifica riufiutata**         | Associa Enti n.d. | Modifica in corso    | n.d.            | n.d.               |
 +---------------------------------+-------------------+----------------------+-----------------+--------------------+
 | **Disabilitazione programmata** | Associa Enti n.d. | Disabilitazione      | n.d.            | Attivo             |
-|                                 |                   | programmata          | n.d.            |                    |
+|                                 |                   | programmata          |                 |                    |
 +---------------------------------+-------------------+----------------------+-----------------+--------------------+
 | **Disabilitazione in corso**    | Associa Enti n.d. | n.d.                 | n.d.            | n.d.               |
 +---------------------------------+-------------------+----------------------+-----------------+--------------------+
@@ -2731,8 +2782,8 @@ descrizione è facoltativa (vedi Tabella 21)
 |                 |                 |                    | utilizzato)              |
 +-----------------+-----------------+--------------------+--------------------------+
 | iban            | O               | Alfanumerico       | Codice IBAN:             |
-|                 |                 | (16 caratteri)     | identifica il            |
-|                 |                 |                    | conto bancario           |
+|                 |                 |                    | identifica il            |
+|                 |                 | (16 caratteri)     | conto bancario           |
 |                 |                 |                    | utilizzato per           |
 |                 |                 |                    | i pagamenti              |
 +-----------------+-----------------+--------------------+--------------------------+
@@ -2750,8 +2801,8 @@ descrizione è facoltativa (vedi Tabella 21)
 |                 |                 |                    | Pagamenti-SPC            |
 +-----------------+-----------------+--------------------+--------------------------+
 | operazione      | O               | Alfanumerico       | Indica l’operazione:     |
-|                 |                 | (1 carattere)      |                          |
-|                 |                 |                    | - I = Inserimento        |
+|                 |                 |                    |                          |
+|                 |                 | (1 carattere)      | - I = Inserimento        |
 |                 |                 |                    |                          |
 |                 |                 |                    | - M = Modifica           |
 |                 |                 |                    |                          |
