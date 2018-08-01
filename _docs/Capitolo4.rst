@@ -2731,8 +2731,8 @@ descrizione è facoltativa (vedi Tabella 21)
 |                 |                 |                    | utilizzato)              |
 +-----------------+-----------------+--------------------+--------------------------+
 | iban            | O               | Alfanumerico       | Codice IBAN:             |
-|                 |                 | (16 caratteri)     | identifica il            |
-|                 |                 |                    | conto bancario           |
+|                 |                 |                    | identifica il            |
+|                 |                 | (16 caratteri)     | conto bancario           |
 |                 |                 |                    | utilizzato per           |
 |                 |                 |                    | i pagamenti              |
 +-----------------+-----------------+--------------------+--------------------------+
@@ -2750,8 +2750,8 @@ descrizione è facoltativa (vedi Tabella 21)
 |                 |                 |                    | Pagamenti-SPC            |
 +-----------------+-----------------+--------------------+--------------------------+
 | operazione      | O               | Alfanumerico       | Indica l’operazione:     |
-|                 |                 | (1 carattere)      |                          |
-|                 |                 |                    | - I = Inserimento        |
+|                 |                 |                    |                          |
+|                 |                 | (1 carattere)      | - I = Inserimento        |
 |                 |                 |                    |                          |
 |                 |                 |                    | - M = Modifica           |
 |                 |                 |                    |                          |
