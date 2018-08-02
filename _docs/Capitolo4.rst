@@ -444,7 +444,7 @@ cui sono evidenziati con un asterisco i campi obbligatori. I dati da inserire so
 | CAP                  | F               | Numerico (5 cifre) | CAP del Referente Tecnico del Partner   |
 |                      |                 |                    | Tecnologico                             |
 +----------------------+-----------------+--------------------+-----------------------------------------+
-* O = campo Obbligatorio; F = campo Facoltativo
+\* O = campo Obbligatorio; F = campo Facoltativo
 **Tabella 6 - Elenco delle informazioni da inserire per il censimento di un nuovo Partner**
 
 |image21|
