@@ -395,6 +395,7 @@ Selezionando “Aggiungi Partner Tecnologico” viene mostrata un *form* in
 cui sono evidenziati con un asterisco i campi obbligatori. I dati da inserire
 sono:
 
+<<<<<<<HEAD
 +----------------------+-----------------+--------------------+-----------------------------------------+
 | **Nome campo**       | **O/F**\*       | **Tipo/Formato**   | **Descrizione/Valori**                  |
 +======================+=================+====================+=========================================+
