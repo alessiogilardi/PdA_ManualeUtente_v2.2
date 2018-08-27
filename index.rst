@@ -1,9 +1,9 @@
 ﻿
 |image0|
 
-############################################
-PdA_ManualeUtente_v2.1
-############################################
+######################################
+Portale delle Adesioni: manuale utente
+######################################
 
 .. toctree::
    :caption: Indice dei contenuti
