@@ -7,7 +7,7 @@
 | **Versione 2.2 – 31 luglio 2018**               |
 +-------------------------------------------------+
 
-SCOPO DEL DOCUMENTO
+Scopo del documento
 ===================
 
 Lo scopo di questo documento è quello di descrivere le funzionalità che

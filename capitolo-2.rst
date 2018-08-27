@@ -8,7 +8,7 @@
 +-------------------------------------------------+
 
 
-2. ACCESSO AL PORTALE
+2. Accesso al portale
 =====================
 
 Il Portale delle Adesioni ha due distinte modalità di accesso: la prima

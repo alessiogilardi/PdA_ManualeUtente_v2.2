@@ -7,7 +7,7 @@
 | **Versione 2.2 – 31 luglio 2018**               |
 +-------------------------------------------------+
 
-INTRODUZIONE
+Introduzione
 ============
 
 Nel seguito si descrivono brevemente i principali soggetti che

@@ -8,7 +8,7 @@
 +-------------------------------------------------+
 
 
-3. FUNZIONALITÀ ACCESSIBILI CON CREDENZIALI NON NOMINALI
+3. Funzionalità accessibili con credenziali non nominali
 ========================================================
 
 I soggetti che hanno ricevuto le credenziali non nominali possono

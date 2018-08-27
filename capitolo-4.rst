@@ -7,7 +7,7 @@
 | **Versione 2.2 – 31 luglio 2018**               |
 +-------------------------------------------------+
 
-4. FUNZIONALITÀ ACCESSIBILI CON CREDENZIALI NOMINALI
+4. Funzionalità accessibili con credenziali nominali
 ====================================================
 
 I soggetti che hanno ricevuto le credenziali nominali hanno accesso a
