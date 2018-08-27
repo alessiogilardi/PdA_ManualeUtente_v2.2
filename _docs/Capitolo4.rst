@@ -942,13 +942,13 @@ Per una trattazione completa della gestione degli IBAN si rimanda :ref:`al § 4.
 
 Selezionando il tasto “Dettaglio Ente Creditore” è possibile accedere al *form* Figura 28 che permette di:
 
--  Modificare l’Ente Creditore (:ref:`vedi § 4.6.2.4;) <modifica-ente-creditore-rp>`
+-  Modificare l’Ente Creditore (:ref:`vedi § 4.6.2.4 <modifica-ente-creditore-rp>`);
 
--  Gestire le Connessioni dell’Ente Creditore (:ref:`vedi § 4.6.2.5). <connessioni-ente-creditore>`
+-  Gestire le Connessioni dell’Ente Creditore (:ref:`vedi § 4.6.2.5 <connessioni-ente-creditore>`).
 
 L’utente abilitato può anche scegliere la voce di menu “Gestione IBAN”
 per accedere a tutte le funzionalità che consentono di gestire gli IBAN
-di accredito di quell’Ente (:ref:`vedi § 4.6.2.6). <attivazione-e-gestione-degli-iban-rp>`
+di accredito di quell’Ente (:ref:`vedi § 4.6.2.6 <attivazione-e-gestione-degli-iban-rp>`).
 
 .. _section-1:
 
@@ -1751,7 +1751,7 @@ validazioni sui campi:
    stesso). La dimensione massima accettata per il certificato è di 2MB.
 
 4.7.5 Dettaglio del collegamento (RT, Nodo e AgID)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Per ciascun collegamento fisico è possibile visionare in dettaglio le
 informazioni riportate in Figura 70:
@@ -1839,7 +1839,7 @@ funzione dell’azione di disabilitazione eseguita, ove disponibile, dal
 RT.
 
 4.7.8 Ripristina (Nodop)
-~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 È possibile per un operatore del Nodo ripristinare l’ultima
 configurazione attiva di un collegamento fisico. Vista la complessità
@@ -2072,10 +2072,10 @@ in Figura 76.
 
 All’utente è richiesto di selezionare il file di input e sottoporlo
 all’elaborazione. Il tracciato del file per il caricamento massivo deve
-essere come indicato :ref:`in § 4.11.4. <caricamento-associazioni-stazioni>`
+essere come indicato :ref:`in § 4.11.4 <caricamento-associazioni-stazioni>`.
 Per quanto riguarda la logica di
 funzionamento del caricamento massivo si può far
-riferimento :ref:`al § 4.11.7. <logica-di-funzionamento-del-caricamento-massivo>`
+riferimento :ref:`al § 4.11.7 <logica-di-funzionamento-del-caricamento-massivo>`.
 
 4.8.6 Aggiungi stazione (RT)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2132,7 +2132,7 @@ campi:
 -  Data attivazione (deve essere successiva alla data di inserimento).
 
 4.8.7 Dettaglio stazione (RT, Nodo e AgID)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Per ciascuna stazione è possibile visionare in dettaglio le informazioni
 riportate in Figura 82:
@@ -2688,7 +2688,7 @@ obbligatori o facoltativi.
 
 Attraverso il “Caricamento Massivo” degli IBAN è possibile caricare sul
 Portale delle Adesioni, tramite l’apposito csv, un lotto di IBAN con le
-stesse regole descritte al :ref:`al § 4.11.7. <logica-di-funzionamento-del-caricamento-massivo>`
+stesse regole descritte al :ref:`al § 4.11.7 <logica-di-funzionamento-del-caricamento-massivo>`.
 
 Per ogni IBAN vanno specificate le informazioni relative all’Ente
 Creditore e quelle inerenti all’IBAN stesso, delle quali solo la
