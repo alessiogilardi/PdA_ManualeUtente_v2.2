@@ -19,6 +19,6 @@ Portale delle Adesioni: manuale utente
    capitolo-3.rst
    capitolo-4.rst
 
-.. |image0| image:: _docs/media/header.png
+.. |image0| image:: media/header.png
    :width: 5.90551in
    :height: 1.30277in
