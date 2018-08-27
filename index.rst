@@ -8,15 +8,15 @@ PdA_ManualeUtente_v2.1
 .. toctree::
    :caption: Indice dei contenuti
    
-   _docs/STATO_DEL_DOCUMENTO.rst
-   _docs/SINTESI_DEI_CAMBIAMENTI.rst
-   _docs/SCOPO_DEL_DOCUMENTO.rst
-   _docs/INTRODUZIONE.rst
-   _docs/DEFINIZIONI_E_ACRONIMI.rst
-   _docs/Capitolo1.rst
-   _docs/Capitolo2.rst
-   _docs/Capitolo3.rst
-   _docs/Capitolo4.rst
+   -docs/stato-del-documento.rst
+   -docs/sintesi-dei-cambiamenti.rst
+   -docs/scopo-del-documento.rst
+   -docs/introduzione.rst
+   -docs/definizioni-e-acronimi.rst
+   _docs/capitolo-1.rst
+   _docs/capitolo-2.rst
+   _docs/capitolo-3.rst
+   _docs/capitolo-4.rst
 
 .. |image0| image:: _docs/media/header.png
    :width: 5.90551in
