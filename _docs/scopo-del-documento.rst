@@ -7,8 +7,8 @@
 | **Versione 2.2 – 31 luglio 2018**               |
 +-------------------------------------------------+
 
-
-**SCOPO DEL DOCUMENTO**
+SCOPO DEL DOCUMENTO
+===================
 
 Lo scopo di questo documento è quello di descrivere le funzionalità che
 il “Portale delle Adesioni”, predisposto da AgID al fine di supportare

@@ -7,8 +7,8 @@
 | **Versione 2.2 – 31 luglio 2018**               |
 +-------------------------------------------------+
 
-
-**INTRODUZIONE**
+INTRODUZIONE
+============
 
 Nel seguito si descrivono brevemente i principali soggetti che
 interagiscono nel Sistema pagoPA.

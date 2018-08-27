@@ -7,8 +7,8 @@
 | **Versione 2.2 – 31 luglio 2018**               |
 +-------------------------------------------------+
 
-
-**DEFINIZIONI E ACRONIMI**
+DEFINIZIONI E ACRONIMI
+======================
 
 +----------------------------------------+-----------------------------------+
 | Definizione/Acronimo                   | Descrizione                       |
