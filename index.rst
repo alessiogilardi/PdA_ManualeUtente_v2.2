@@ -8,11 +8,11 @@ Portale delle Adesioni: manuale utente
 .. toctree::
    :caption: Indice dei contenuti
    
-   -docs/stato-del-documento.rst
-   -docs/sintesi-dei-cambiamenti.rst
-   -docs/scopo-del-documento.rst
-   -docs/introduzione.rst
-   -docs/definizioni-e-acronimi.rst
+   _docs/stato-del-documento.rst
+   _docs/sintesi-dei-cambiamenti.rst
+   _docs/scopo-del-documento.rst
+   _docs/introduzione.rst
+   _docs/definizioni-e-acronimi.rst
    _docs/capitolo-1.rst
    _docs/capitolo-2.rst
    _docs/capitolo-3.rst
