@@ -726,7 +726,6 @@ una delle seguenti attività:
    Lettera di Adesione o di Sostituzione
 
 |image30|
-~~~~~~~~~
 
 **Figura 26 - Dettaglio adesione in corso**
 
@@ -953,7 +952,6 @@ di accredito di quell’Ente (:ref:`vedi § 4.6.2.6 <attivazione-e-gestione-degl
 .. _section-1:
 
 |image32|
-~~~~~~~~~
 
 **Figura 28 - Dettaglio Ente Creditore**
 

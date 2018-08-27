@@ -7,6 +7,7 @@ Portale delle Adesioni: manuale utente
 
 .. toctree::
    :caption: Indice dei contenuti
+   :maxdepth: 1
    
    stato-del-documento.rst
    sintesi-dei-cambiamenti.rst
